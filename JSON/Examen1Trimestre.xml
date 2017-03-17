@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+	<actividades tipo="talleres">
+		<titulo>
+			Autoestima
+			<lugar>
+				Sevilla
+				<fecha>20/1/1017</fecha>
+				<responsables>Laura</responsables>
+				<codigo>AE17001</codigo>
+			</lugar>
+			<lugar>
+				Córdoba
+				<fecha>24/1/2016</fecha>
+				<responsables> Elina, Teresa, Alfonso</responsables>
+				<codigo>AE17002</codigo>
+			</lugar>
+		</titulo>
+		<titulo>
+			Defensa Personal
+			<lugar >
+				Huelva
+				<fecha>16/1/2016</fecha>
+				<responsables>Miguel</responsables>
+				<codigo>DP17001</codigo>
+			</lugar>
+			<lugar>
+				Cádiz
+				<fecha>22/1/2017</fecha>
+				<responsables>Tania</responsables>
+				<codigo>DP17002</codigo>
+			</lugar>
+			<lugar >
+				Málaga
+				<fecha>4/2/2017</fecha>
+				<responsables>Miguel, Rosa</responsables>
+				<codigo>DP17003</codigo>
+			</lugar>
+		</titulo>
+		<titulo>
+			Marco legal
+			<lugar >
+				Sevilla
+				<fecha>11/2/1017</fecha>
+				<responsables>Sofía</responsables>
+				<codigo>ML17001</codigo>
+			</lugar>
+			<lugar>
+				Granada
+				<fecha>19/2/2017</fecha>
+				<responsables> Ramón, Laura</responsables>
+				<codigo>ML17002</codigo>
+			</lugar>
+		</titulo>
+	</actividades>
+	<actividades tipo="Salud">
+		<titulo>
+			Reconocimiento Médico
+			<lugar>
+				Almería
+				<fecha>5/2/1017</fecha>
+				<responsables>Sara, Luis</responsables>
+				<codigo>RM17001</codigo>
+			</lugar>
+			<lugar>
+				Cádiz
+				<fecha>1/3/2017</fecha>
+				<responsables>Sara</responsables>
+				<codigo>RM17002</codigo>
+			</lugar>
+		</titulo>
+		<titulo>
+			Test VIH
+			<lugar>
+				Málaga
+				<fecha>5/3/2017</fecha>
+				<responsables>Alfonso</responsables>
+				<codigo>TS17001</codigo>
+			</lugar>
+		</titulo>
+	</actividades>
+	<actividades tipo="Concienciación">
+		<titulo>
+			Exposiciones imágenes
+			<lugar >
+				Córdoba
+				<fecha>10/1/2017</fecha>
+				<responsables>Laura</responsables>
+				<codigo>EX17001</codigo>
+			</lugar>
+			<lugar>
+				Jaén
+				<fecha>10/2/2017</fecha>
+				<responsables>Elena, Sara</responsables>
+				<codigo>EX17002</codigo>
+			</lugar>
+			<lugar >
+				Almería
+				<fecha>11/3/2017</fecha>
+				<responsables>Teresa</responsables>
+				<codigo>EX17003</codigo>
+			</lugar>
+		</titulo>
+		<titulo>
+			Flash Mob
+			<lugar>
+				Sevilla
+				<fecha>15/1/2017</fecha>
+				<responsables>Sofía, Miguel, Rosa</responsables>
+				<codigo>FM17001</codigo>
+			</lugar>
+		</titulo>
+	</actividades>
+</tabla>

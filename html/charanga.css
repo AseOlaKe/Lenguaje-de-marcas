@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+	background-image: url("https://charangaosculum.files.wordpress.com/2016/06/cartel.png?w=730");
+	background-size:100%;
+	background-attachment: fixed;
+	
+}
+form{
+	background-color: aqua;
+   width:370px;
+   margin:auto;
+   text-align:left;
+  
+  
+}
+
+.1{
+	float: right;
+	margin-left: 20% ;
+	
+}
+fieldset{
+	border: solid;
+	color:black;
+}

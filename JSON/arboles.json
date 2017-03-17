@@ -1,0 +1,79 @@
+{"arboles":[
+		{
+			"Nombre":"Acer Mospessulanum",
+			"Nombre común":"Arce de Montpellier, Arce Menor",
+			"Vegetación":"Caducifolio",
+			"Altura":"De  a 10 metros",
+			"Forma y estructura":
+			{
+					"Copa":"Esférica",
+					"Tronco principal":"Recto con bifurcaciones",
+					"Ramaje":"Colgante"
+			},
+			"Color en primavera":
+			{
+					"Haz de la hoja":"Verde brillante",
+					"Envés de la hoja":"Verde blanquecino"
+			},
+			"Resistencia a las heladas":"Heladas fuertes (Hasta -15ºC)"
+		},
+		{
+			"Nombre":"Olea europea", 
+			"Nombre común":"Olivo",
+			"Vegetación":"Perenne",
+			"Altura":"De 8 a 15 metros",
+			"Forma y estructura":
+			{
+				"Copa":"Irregular",
+				"Tronco principal":"Irregular con bifurcaciones",
+				"Ramaje":"Tortuoso"
+			},
+			"Color en primavera":
+			{
+				"Haz de la hoja":"Verde oscuro",
+				"Envés de la hoja":"Verde plateado"
+			},
+			"Resistencia a las heladas":"Heladas medias (hasta -10ºC)"
+		},
+		
+		{
+			"Nombre":"Platanus Orientalis",
+			"Nombre común":"Plátano",
+			"Vegetación":"Caducifolio",
+			"Altura":"De 20 a 25 metros",
+			"Forma y estructura":
+		{
+			"Copa":"Ovoidal",
+			"Tronco principal":"Recto",
+			"Ramaje":"Expandido"
+		},
+			"Color en primavera":
+		{
+			"Haz de la hoja":"Verde medio",
+			"Envés de la hoja":"Verde claro"
+		},
+			"Resistenia a las heladas":"Heladas fuertes (Hasta -20ºC)"
+		},
+		{
+			"Nombre":"Quercux Ilex", 
+			"Nombre común":"Encina",
+			"Vegetación":"Perenne",
+			"altura":"En torno a 25 metros",
+			"Forma y estructura":
+		{
+			"Copa":"Esférica o elíptica irregular",
+			"Ramaje":"Tortuoso"
+		},
+			"Color en primavera":
+		{
+			"Hojas jóvenes":"Plateado",
+			"Hojas antiguas":
+			{
+				"Haz de la hoja":"Verde oscuro",
+				"Envés de la hoja":"Plateado"
+			}
+			
+		}
+				
+		}
+		]

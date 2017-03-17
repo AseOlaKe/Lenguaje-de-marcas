@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="curso">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="idioma" type="xs:string"/>
+				<xs:element name="nivel" type="xs:int"/>
+				<xs:element name="fecha_inicio" type="xs:date"/>
+				<xs:element name="duracion" type="xs:int"/>
+				<xs:element name="publico_objetivo" type="xs:string"/>
+				<xs:element name="nivel_requerido" type="xs:string"/>
+				<xs:element name="precio" type="xs:double"/>
+				<xs:element name="sesiones_por_semana" type="xs:int"/>
+				<xs:element name="duracion_sesiones">
+					<xs:simpleType>
+						<xs:restriction base="xs:unsignedByte">
+							<xs:minInclusive value="0"/>
+							<xs:maxInclusive value="120"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

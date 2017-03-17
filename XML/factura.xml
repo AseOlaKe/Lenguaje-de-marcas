@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="999">
+	<datos_empresa>
+		<nombre_empresa>Equipos Digitales S.L.</nombre_empresa>
+		<direccion>
+			<calle>Av. Valladolid</calle>
+			<provincia id="1">Madrid</provincia>
+			<codigo_postal id="1">28015</codigo_postal>
+		</direccion>
+		<cif>Q-9876543 </cif>
+		<contacto>
+			<telefono>91.777.66.88 </telefono>
+			<fax>91.777.66.99</fax>			
+		</contacto>
+		<fecha>12-01-2005</fecha>
+		<pedido numero="731"/>
+		<forma_de_pago>En efectivo</forma_de_pago>
+	</datos_empresa>
+	<datos_cliente numero="879">
+		<nombre>Darío Bueno Gutiérrez</nombre>
+		<direccion_de_envio>Av.Oporto nº7 4ºD</direccion_de_envio>
+		<poblacion>Madrid</poblacion>
+		<codigo_postal id="2">28043</codigo_postal>
+		<provincia id="2">Madrid</provincia>
+	</datos_cliente>
+	<datos_factura>
+		<producto id="1">
+			<ref>MII93000F/8</ref>
+			<descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+			<cantidad>1</cantidad>
+			<precio_sin_iva>230€</precio_sin_iva>
+			<iva>16%</iva>
+			<precio>266'8€</precio>
+		</producto>
+		<producto id="2">
+			<ref>MB8QDIP4</ref>
+			<descripcion>PLACA BASE QDI P4</descripcion>
+			<cantidad>1</cantidad>
+			<precio_sin_iva>180€</precio_sin_iva>
+			<iva>16%</iva>
+			<precio>208'8€</precio>
+		</producto>
+		<producto id="3">
+			<ref>MEDD512M32</ref>
+			<descripcion>DIMM DDR 512MB 3200</descripcion>
+			<cantidad>2</cantidad>
+			<precio_sin_iva>40€ por unidad</precio_sin_iva>
+			<iva>16%</iva>
+			<precio>92'8€</precio>
+		</producto>
+		<producto id="4">
+			<ref>HD250GSA7</ref>
+			<descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+			<cantidad>4</cantidad>
+			<precio_sin_iva>120€ por unidad</precio_sin_iva>
+			<iva>16%</iva>
+			<precio>556'8€</precio>
+		</producto>
+		<precio_total_sin_iva>970,00€</precio_total_sin_iva>
+		<precio_total>1125'2€ con un IVA del 16%</precio_total>	
+	</datos_factura>
+</factura>

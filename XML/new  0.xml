@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tipo_de_receta>Roja</tipo_de_receta>
+<médico número_de_colegiado="142"/>
+<fecha_de_inscripción>19/03/16</fecha_de_inscripción>
+<medicamento_prescrito nombre="Paracetamol" marca="airis" presentación="cápsulas de 8 mg"/>
+<medicamentos_alternativos>En primer lugar Nolotil, después Junifen y como última opción Dalsy</medicamentos_alternativos>

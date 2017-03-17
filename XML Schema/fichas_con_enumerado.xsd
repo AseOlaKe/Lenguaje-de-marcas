@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="tipo_ficha">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido1" type="xs:string"/>
+			<xs:element name="apellido2" type="xs:string"/>
+			<xs:element name="email" minOccurs="0" maxOccurs="2">
+				<xs:simpleType> 
+					<xs:restriction base="xs:string"> 
+					  <xs:pattern value="[^@]+@[^\.]+\..+"/> 
+					</xs:restriction> 
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="direccion" minOccurs="0" maxOccurs="3">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="calle" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+						<xs:element name="piso" type="xs:integer"/>
+						<xs:element name="letra" type="char"/>
+						<xs:element name="codigo_postal" minOccurs="1" maxOccurs="unbounded">
+							<xs:simpleType>
+								<xs:restriction base="xs:integer">
+									<xs:minInclusive value="1000"/>
+									<xs:maxInclusive value="9999"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ciudad" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+						<xs:element name="pais" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="categoria" use="required" type="tipo_categoria"/>
+		<xs:attribute name="zona" type="tipo_zona"/>
+	</xs:complexType>
+	<xs:simpleType name="char">
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="ficha" type="tipo_ficha"/>
+	<xs:simpleType name="tipo_categoria">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="empresa"/>
+			<xs:enumeration value="particular"/>
+			<xs:enumeration value="agente_comercial"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="tipo_zona">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="centro"/>
+			<xs:enumeration value="macarena"/>
+			<xs:enumeration value="remedios"/>
+		</xs:restriction>	
+	</xs:simpleType>
+</xs:schema>

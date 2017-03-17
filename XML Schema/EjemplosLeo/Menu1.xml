@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+	<primerplato>Sopa de tomate</primerplato>
+	<segundoplato>Escalope con patatas</segundoplato>
+	<postre azucar ="Sí" calorias="250">Flan</postre>
+	<bebida>Agua</bebida>
+	<categoria>2</categoria>
+	<precio>5.5</precio>
+</menu>

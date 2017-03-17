@@ -1,0 +1,32 @@
+table {
+	border-style: solid;
+	border-color: blue;
+}
+
+.endes{
+	background-color: green;
+}
+
+.prog{
+	background-color:aqua;
+}
+
+.si{
+	background-color:lime;
+}
+
+.badat{
+	background-color:orange;
+}
+
+.lm{
+	background-color:purple;
+}
+
+.fol{
+	background-color:olive;
+}
+
+.recreo{
+	background-color:fuchsia;
+}

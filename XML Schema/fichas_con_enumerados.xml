@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ficha categoria="empresa" zona="centro">
+	<nombre>Pablo</nombre>
+	<apellido1>Jarana</apellido1>
+	<apellido2>Garcia</apellido2>
+	<email>pablojosejarana21@gmail.com</email>
+	<direccion>
+		<calle> Almirante Topete</calle>
+		<piso>1</piso>
+		<letra>A</letra>
+		<codigo_postal>4101</codigo_postal>
+		<ciudad>Sevilla</ciudad>
+		<pais>España</pais>
+	</direccion>
+</ficha>

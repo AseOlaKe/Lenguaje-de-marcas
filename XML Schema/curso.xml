@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+	<idioma>Inglés</idioma>
+	<nivel>2</nivel>
+	<fecha_inicio>19/03/1998</fecha_inicio>
+	<duracion>4</duracion>
+	<publico_objetivo>Jóvenes</publico_objetivo>
+	<precio>10.4</precio>
+	<sesiones_por_semana>3</sesiones_por_semana>
+	<duracion_sesiones>59</duracion_sesiones>
+</curso>

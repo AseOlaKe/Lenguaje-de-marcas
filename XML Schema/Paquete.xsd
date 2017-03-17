@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="paquete">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pais_origen" type="xs:string"/>
+				<xs:element name="valor_declarado" type="xs:double"/>
+				<xs:element name="tipo_contenido" type="xs:string"/>
+				<xs:element name="fecha_envio" type="xs:dateTime"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

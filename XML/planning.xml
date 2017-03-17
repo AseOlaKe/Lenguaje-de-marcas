@@ -1,0 +1,30 @@
+﻿<?xml="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<planing>
+	<lunes>
+		<morning> Ir al instituto y no quedarme dormido</morning>
+		<tarde>ponerme a estudiar la presentacion de programación</tarde>
+		<noche>ir la gym y a descansar</noche>
+	</lunes>
+	<martes>
+		<morning>La rutina de todas las mananas</morning>
+		<tarde>darle caña a programación</tarde>
+		<noche>gym y descanso</noche>
+	</martes>
+	<miercoles>
+		<morning>acordarme de llevarme el pen al instituto</morning>
+		<tarde>ponerme al dia con las demás asignaturas</tarde>
+		<noche>ensayo con la banda, cervecita y a descansar</noche>
+	</miercoles>
+	<jueves>
+		<morning>motivarme que mañana es viernes</morning>
+		<tarde>Estudiar todo lo que pueda para dejar el finde libre</tarde>
+		<noche>Un poco de futbol y unas cervezas</noche>
+	</jueves>
+	<viernes>
+		<morning> ir al instituto ya con otra cara </morning>
+		<tarde>dejar todos los deberes hechos e irme a casa de unos amigos</tarde>
+		<noche>18 cumpleaños de adri</noche>
+	</viernes>
+</planing>

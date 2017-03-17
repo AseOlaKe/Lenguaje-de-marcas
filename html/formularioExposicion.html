@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Elimincación de la violencia contra la mujer</title>
+</head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<h1><a href="index.html">Día Internacional de la Eliminación de la Violencia contra la Mujer</a></h1>
+<hr width="100%">
+<body>
+	<p>Elige a que tipo de actividad te quieres inscribir y te llevaremos al formulario:</p>
+	<a href="Talleres.html" class="linkTalleres">Talleres</a>
+	<a href="Salud.html" class="linkSalud">Salud</a>
+	<a href="Concienciacion.html" class="linkConcienciacion">Concienciación</a>
+	<form action="http://leo.ciclo.iesnervion.es/muestraDatos.php"name="Formulario" method="post">
+		<fieldset>
+			<legend>Actividad de Concienciación: Exposición de imágenes</legend>
+				<br>Lugar <select name="lugar_autoestima">
+					<option value="almería">Almería</option>
+					<option value="Cordoba">Córdoba</option>
+					<option value="Jaen">Jaén</option></select><br>
+				<br>Fecha de inicio: <input type="date" name="Fecha de nacimiento"><br>
+				<br>Responsables: <input type="text" name="Responsables">
+				<br>Código del taller:<input type="text" name="codigo del taller">
+				<input type="submit" value="Enviar"> <input type="reset" value="Restablecer">
+		</fieldset>
+	</form>
+</body>
+</html>

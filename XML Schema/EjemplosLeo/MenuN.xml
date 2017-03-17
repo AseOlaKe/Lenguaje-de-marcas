@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<comanda>
+<menu>
+	<primerplato>Sopa de tomate</primerplato>
+	<segundoplato>Escalope con patatas</segundoplato>
+	<postre azucar ="Sí" calorias="250">Flan</postre>
+	<bebida>Agua</bebida>
+	<categoria>2</categoria>
+	<precio>5.5</precio>
+</menu>
+<menu>
+	<primerplato>Ensalada</primerplato>
+	<segundoplato>Macarrones</segundoplato>
+	<postre azucar ="Sí" calorias="120">Yogur</postre>
+	<bebida>Cola</bebida>
+	<categoria>4</categoria>
+	<precio>6.5</precio>
+</menu>
+<menu>
+	<primerplato>Paella</primerplato>
+	<segundoplato>Escalope con patatas</segundoplato>
+	<postre azucar ="Sí" calorias="100">Fruta</postre>
+	<bebida>Agua</bebida>
+	<categoria>2</categoria>
+	<precio>5.5</precio>
+</menu>
+</comanda>

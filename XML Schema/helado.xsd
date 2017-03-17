@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="tipo_helado">
+		<xs:sequence>
+			<xs:element name="sabor">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Chocolate"/>
+						<xs:enumeration value="Fresa"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="recipiente">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Cono"/>
+						<xs:enumeration value="Tarrina"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="helado" type="tipo_helado"/>
+</xs:schema>
