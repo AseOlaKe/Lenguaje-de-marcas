@@ -1,0 +1,9 @@
+Escribe las expresiones XPath para obtener la siguiente información:
+Latitud de Sevilla:
+	
+Longitud de Sevilla:
+Temperatura máxima prevista para hoy:
+Temperatura mínima prevista para mañana:
+Hora a la que se pondrá hoy el sol:
+Dias soleados en los próximos diez días:
+Repite el ejercicio cambiando la ciudad:
