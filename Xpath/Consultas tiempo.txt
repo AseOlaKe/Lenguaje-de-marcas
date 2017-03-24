@@ -12,3 +12,9 @@ Hora a la que se pondrá hoy el sol:
 Dias soleados en los próximos diez días:
 //*[local-name()='forecast'][@text="Sunny"]
 Repite el ejercicio cambiando la ciudad:
+//*[local-name()='lat']
+//*[local-name()='long']
+//*[local-name()='forecast'][@date="24 Mar 2017"]/@high
+//*[local-name()='forecast'] [@date="25 Mar 2017"]/@low
+//*[local-name()='astronomy']/@sunset
+//*[local-name()='forecast'][@text="Sunny"]
