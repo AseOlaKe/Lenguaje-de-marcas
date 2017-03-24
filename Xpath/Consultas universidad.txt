@@ -11,13 +11,13 @@
 6. Identificadores de todas las carreras
 /universidad/carreras/carrera/@id
 7. Datos de la carrera cuyo id es c01
-/universidad/carreras/carrera[@id="c01"]
+/universidad/carreras/carrera[@id="c01"]/*
 8. Centro en que se estudia de la carrera cuyo id es c02
 /universidad/carreras/carrera[@id="c02"]/centro
 9. Nombre de las carreras que tengan subdirector
-/universidad/carreras/carrera/subdirector/../nombre
+/universidad/carreras/carrera/subdirector/../nombre 
 10. Nombre de los alumnos que estén haciendo proyecto
-/universidad/alumnos/alumno/proyecto/../../nombre
+/universidad/alumnos/alumno/estudios/proyecto/../../nombre
 11. Códigos de las carreras en las que hay algún alumno matriculado
 /universidad/alumnos/alumno/estudios/carrera/@codigo
 12. Apellidos y Nombre de los alumnos con beca
