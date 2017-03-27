@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_TPbcIQsIEeeag6L2g4FtAQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_TPbcIgsIEeeag6L2g4FtAQ" bindingContexts="_TPbcJAsIEeeag6L2g4FtAQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Consultas tiempo.txt&quot; tooltip=&quot;Xpath/Consultas tiempo.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/Consultas tiempo.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;tiempoGranada.xml&quot; tooltip=&quot;Xpath/tiempoGranada.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/tiempoGranada.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;tiempoMeteorologico.xml&quot; tooltip=&quot;Xpath/tiempoMeteorologico.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/tiempoMeteorologico.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;universidad.xml&quot; tooltip=&quot;Xpath/universidad.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/universidad.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot; tooltip=&quot;C:\Users\pjarana\Desktop\MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/pjarana/Desktop/MARCA%20-%20Diario%20online%20l&#xed;der%20en%20informaci&#xf3;n%20deportiva.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;PcCom Basic _ Ordenadores B&#xe1;sicos y Baratos Oficina.html&quot; tooltip=&quot;Xpath/PcCom Basic _ Ordenadores B&#xe1;sicos y Baratos Oficina.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/PcCom Basic _ Ordenadores B&#xe1;sicos y Baratos Oficina.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Consultas tiempo.txt&quot; tooltip=&quot;Xpath/Consultas tiempo.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/Consultas tiempo.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;tiempoGranada.xml&quot; tooltip=&quot;Xpath/tiempoGranada.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/tiempoGranada.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;tiempoMeteorologico.xml&quot; tooltip=&quot;Xpath/tiempoMeteorologico.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/tiempoMeteorologico.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;universidad.xml&quot; tooltip=&quot;Xpath/universidad.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Xpath/universidad.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_TPbcIgsIEeeag6L2g4FtAQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_TnvOcAsIEeeag6L2g4FtAQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="697" height="735">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_TPbcIgsIEeeag6L2g4FtAQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_TnvOcAsIEeeag6L2g4FtAQ" label="%trimmedwindow.label.eclipseSDK" x="178" y="72" width="697" height="735">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -72,22 +72,21 @@
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Ty-OEQsIEeeag6L2g4FtAQ" selectedElement="_Ty-OFwsIEeeag6L2g4FtAQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_Ty-OEgsIEeeag6L2g4FtAQ" elementId="topLeft" containerData="2500" selectedElement="_Ty-OEwsIEeeag6L2g4FtAQ">
-              <tags>noFocus</tags>
+            <children xsi:type="basic:PartStack" xmi:id="_Ty-OEgsIEeeag6L2g4FtAQ" elementId="topLeft" containerData="2184" selectedElement="_Ty-OEwsIEeeag6L2g4FtAQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OEwsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_TyuWcAsIEeeag6L2g4FtAQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OFAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_TyvkkAsIEeeag6L2g4FtAQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OFQsIEeeag6L2g4FtAQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_TywLoAsIEeeag6L2g4FtAQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OFgsIEeeag6L2g4FtAQ" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_Ty1EIAsIEeeag6L2g4FtAQ"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_Ty-OFwsIEeeag6L2g4FtAQ" containerData="7500" selectedElement="_Ty-OGAsIEeeag6L2g4FtAQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Ty-OGAsIEeeag6L2g4FtAQ" containerData="6957" selectedElement="_Ty-OGQsIEeeag6L2g4FtAQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_Ty-OFwsIEeeag6L2g4FtAQ" containerData="7816" selectedElement="_Ty-OGAsIEeeag6L2g4FtAQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Ty-OGAsIEeeag6L2g4FtAQ" containerData="4042" selectedElement="_Ty-OGQsIEeeag6L2g4FtAQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OGQsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.editorss" containerData="8761" ref="_Tyg7EAsIEeeag6L2g4FtAQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_Ty-OGgsIEeeag6L2g4FtAQ" elementId="topRight" containerData="1239" selectedElement="_Ty-OGwsIEeeag6L2g4FtAQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OGwsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_Ty7KwAsIEeeag6L2g4FtAQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OHAsIEeeag6L2g4FtAQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_Ty7x0AsIEeeag6L2g4FtAQ"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_Ty-OHQsIEeeag6L2g4FtAQ" elementId="bottomRight" containerData="3043" selectedElement="_dBvqwQsIEeeag6L2g4FtAQ">
+              <children xsi:type="basic:PartStack" xmi:id="_Ty-OHQsIEeeag6L2g4FtAQ" elementId="bottomRight" containerData="5958" selectedElement="_dBvqwQsIEeeag6L2g4FtAQ">
                 <tags>XML</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OHgsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.views.AllMarkersView" ref="_Ty1rMAsIEeeag6L2g4FtAQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Ty-OHwsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_Ty3gYAsIEeeag6L2g4FtAQ"/>
@@ -136,20 +135,14 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Tyg7EAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.editorss" selectedElement="_Tyg7EQsIEeeag6L2g4FtAQ">
-      <children xsi:type="basic:PartStack" xmi:id="_Tyg7EQsIEeeag6L2g4FtAQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Zg9ZcBCLEeefA_nLYbUzAg">
+      <children xsi:type="basic:PartStack" xmi:id="_Tyg7EQsIEeeag6L2g4FtAQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_QGSbIBLCEeeecu_yEZbfgQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_sGEUYBCAEeeOBrcUiF1-7Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="tiempoGranada.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;tiempoGranada.xml&quot; partName=&quot;tiempoGranada.xml&quot; title=&quot;tiempoGranada.xml&quot; tooltip=&quot;Xpath/tiempoGranada.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Xpath/tiempoGranada.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2461&quot; selectionTopPixel=&quot;570&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_QGSbIBLCEeeecu_yEZbfgQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot; partName=&quot;MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot; title=&quot;MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot; tooltip=&quot;C:\Users\pjarana\Desktop\MARCA - Diario online l&#xed;der en informaci&#xf3;n deportiva.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/Users/pjarana/Desktop/MARCA%20-%20Diario%20online%20l&#xed;der%20en%20informaci&#xf3;n%20deportiva.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;46696&quot; selectionTopPixel=&quot;10875&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_Zg9ZcBCLEeefA_nLYbUzAg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Consultas tiempo.txt" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Consultas tiempo.txt&quot; partName=&quot;Consultas tiempo.txt&quot; title=&quot;Consultas tiempo.txt&quot; tooltip=&quot;Xpath/Consultas tiempo.txt&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Xpath/Consultas tiempo.txt&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;461&quot; selectionTopPixel=&quot;98&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.ui.DefaultTextEditor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
@@ -279,7 +272,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_dBvqwAsIEeeag6L2g4FtAQ" elementId="org.eclipse.wst.xml.views.XPathView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="XPath" iconURI="platform:/plugin/org.eclipse.wst.xml.xpath.ui/icons/full/xpath.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.wst.xml.xpath.ui.internal.views.XPathView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.xml.xpath.ui"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CurrentSheet=&quot;0&quot; LinkWithEditor=&quot;false&quot;>&#xD;&#xA;&lt;Sheet Index=&quot;0&quot; XPath=&quot;//*[local-name()=&amp;apos;forecast&amp;apos;] [2]/@low&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CurrentSheet=&quot;0&quot; LinkWithEditor=&quot;false&quot;>&#xD;&#xA;&lt;Sheet Index=&quot;0&quot; XPath=&quot;//h3/a[@title=&amp;quot;Hazard: acuerdo con el Chelsea para negociar&amp;quot;]&quot;/>&#xD;&#xA;&lt;Sheet Index=&quot;1&quot; XPath=&quot;/&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:XML</tags>
       <menus xmi:id="_dB74AAsIEeeag6L2g4FtAQ" elementId="org.eclipse.wst.xml.views.XPathView">
@@ -295,13 +288,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TqfAcAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_S6olsBCLEeefA_nLYbUzAg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TQSYAAsIEeeag6L2g4FtAQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U-hcxxK_Eeeecu_yEZbfgQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_TQSYAAsIEeeag6L2g4FtAQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TqfAcQsIEeeag6L2g4FtAQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_TqfAcgsIEeeag6L2g4FtAQ" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_xnp4MBCBEeeOBrcUiF1-7Q" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_xnp4MBCBEeeOBrcUiF1-7Q" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_T9vToAsIEeeag6L2g4FtAQ" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -325,7 +318,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TqfngQsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_S6s3IBCLEeefA_nLYbUzAg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TQRxOgsIEeeag6L2g4FtAQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U-rNwBK_Eeeecu_yEZbfgQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TQRxOgsIEeeag6L2g4FtAQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TqfnggsIEeeag6L2g4FtAQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -358,7 +351,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_TvwiAAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_UAHnEBCLEeefA_nLYbUzAg" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
+      <children xsi:type="menu:ToolControl" xmi:id="_WjG08BK_Eeeecu_yEZbfgQ" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
         <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
         <persistedState key="lastPageId" value="qroot"/>
         <tags>Draggable</tags>
@@ -2858,7 +2851,7 @@
   <addons xmi:id="_TPbcMwsIEeeag6L2g4FtAQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_TPbcNAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_TPnCUAsIEeeag6L2g4FtAQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_SZpYgRCLEeefA_nLYbUzAg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_TQGxkAsIEeeag6L2g4FtAQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_TQGxkQsIEeeag6L2g4FtAQ" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>

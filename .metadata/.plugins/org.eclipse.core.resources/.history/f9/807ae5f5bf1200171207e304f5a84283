@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>PcCom Basic | Ordenadores Básicos y Baratos Oficina</title>
+<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="description" content="Aquí podrás comprar ordenadores para oficina, ofimática, un pc   básico, un mini pc o un media center siempre al mejor precio."/>
+<link rel="canonical" href="https://www.pccomponentes.com/pccom-basic"/>
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//cdn.pccomponentes.com">
+<link rel="dns-prefetch" href="//thumb.pccomponentes.com">
+<link rel="dns-prefetch" href="//www.googleadservices.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//www.salesmanago.pl">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//files2.vtcdn.net">
+<link rel="dns-prefetch" href="//static.hotjar.com">
+<link rel="dns-prefetch" href="//script.hotjar.com">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//partner.googleadservices.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//youtube.com">
+<link rel="dns-prefetch" href="//securepubads.g.doubleclick.net">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+<link rel="dns-prefetch" href="//s.ytimg.com">
+<link rel="dns-prefetch" href="//js-agent.newrelic.com">
+<link rel="dns-prefetch" href="//bam.nr-data.net">
+<link rel="stylesheet" href="https://cdn.pccomponentes.com/css/optimized.css?t=1482161395781"/>
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+<meta name="google-site-verification" content="gZudHgbtCLJAlKV0ksjmsz6JZY06JdEt7nA600433aQ"/>
+<link rel="stylesheet" href="/bundles/pccweb/css/star-rating.css"/>
+</head>
+<body id="pccom" class="pagina-generica pagina-pccom basic cabecera-especial full  lang-es">
+ 
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MCDXK2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MCDXK2');</script>
+ 
+<header id="cabecera-principal" class="container-fluid cabecera cabecera-principal p-y-1">
+<div class="row">
+<a href="https://www.pccomponentes.com/">
+<img id="pccomponentes-logo" src="//cdn.pccomponentes.com/img/corporativo/pccomponentes-logo.svg" alt="PcComponentes">
+</a>
+<div id="triger-menu" data-pcc-trigger="toggle-menu-principal" data-pcc-event="click" data-pcc-group="menus-desplegables">
+<i class="pccom-icon">&#69;</i>
+</div>
+<div class="contenedor-buscador-principal">
+<form id="buscador" class="input-group input-group-lg" method="GET" action="https://www.pccomponentes.com/buscar/">
+<input type="text" id="query" name="query" required="required" class="form-control form-control" placeholder="Busca en PcComponentes..." data-url="https://www.pccomponentes.com/buscar/ajax/mini" autocomplete="off"/>
+<input type="text" id="query2" name="query2" class="form-control" placeholder="Busca en PcComponentes..." style="display: none">
+<a class="buscador-principal__cierre activador-buscador">Cancelar</a>
+</form>
+<script>
+                    setTimeout(function() {
+                        if (!$('#query2:visible').length) {
+                            $('#query2').remove();
+                        }
+                    }, 1000);
+                </script>
+<div class="buscador__superposicion-fondo"></div>
+<div id="pccom-suggestion-box" class="pccom-suggestion-box"></div>
+</div>
+<div class="posicionador-activador-buscador hidden-md-up">
+<a id="search-mobile" class="ico-header activador-buscador">
+<i class="pccom-icon">&nbsp;</i>
+</a>
+</div>
+<ul id="usuario" class="pull-xs-right p-r-2 p-l-0 user-floating" data-sm="f9f7848647477bd78841440488fb054f8d914706">
+</ul>
+</div>
+</header>
+<nav id="menu-principal" class="menu-principal v3 sombra-suave" data-pcc-listen="toggle-menu-principal" data-pcc-class="menu-principal--desplegado" data-pcc-group="menus-desplegables" data-pcc-active="0">
+<div class="menu-principal__fondo-movil" data-pcc-trigger="toggle-menu-principal" data-pcc-event="click" data-pcc-group="menus-desplegables"></div>
+<div class="menu-principal__seccion menu-principal__seccion-superfamilias">
+<header class="menu-principal__cabecera-seccion cabecera-superfamilia">
+<h3>TODAS LAS SECCIONES</h3>
+<div data-pcc-trigger="toggle-menu-principal" data-pcc-event="click" data-pcc-group="menus-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</header>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-superfamilia.png" class="img-fluid" alt="Familias de artículos de PcComponentes">
+</div>
+<ul class="menu-principal__lista-superfamilias">
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-1" href="/componentes" class="con-icono con-icono-componentes hidden-md-down">Componentes</a>
+<div data-pcc-trigger="toggle-superfamilia-1" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-componentes menu-principal__pulsador-texto hidden-lg-up">Componentes
+</div>
+<div data-pcc-trigger="toggle-superfamilia-1" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-1" data-pcc-listen="toggle-superfamilia-1" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">COMPONENTES</h4>
+<h4 class="hidden-lg-up"><a href="/componentes">COMPONENTES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-1" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Componentes">
+<h5 class="h4">Componentes</h5>
+<ul>
+<li><a href="/placas-base" class="GTM-subfamilia-Placas-Base">Placas Base</a></li>
+<li><a href="/procesadores" class="GTM-subfamilia-Procesadores">Procesadores</a></li>
+<li><a href="/discos-duros" class="GTM-subfamilia-Discos-Duros">Discos Duros</a></li>
+<li><a href="/tarjetas-graficas" class="GTM-subfamilia-Tarjetas-Gráficas">Tarjetas Gráficas</a></li>
+<li><a href="/memorias-ram" class="GTM-subfamilia-Memoria-RAM">Memoria RAM</a></li>
+<li><a href="/grabadoras-dvd-blu-ray" class="GTM-subfamilia-Grabadoras-DVD/Blu-Ray">Grabadoras DVD/Blu Ray</a></li>
+<li><a href="/disqueteras" class="GTM-subfamilia-Disqueteras">Disqueteras</a></li>
+<li><a href="/multilectores" class="GTM-subfamilia-Multilectores">Multilectores</a></li>
+<li><a href="/tarjetas-sonido" class="GTM-subfamilia-Tarjetas-de-Sonido">Tarjetas de Sonido</a></li>
+<li><a href="/torres" class="GTM-subfamilia-Torres/Cajas/Carcasas">Torres/Cajas/Carcasas</a></li>
+<li><a href="/ventiladores" class="GTM-subfamilia-Ventilación">Ventilación</a></li>
+<li><a href="/fuentes-alimentacion" class="GTM-subfamilia-Fuentes-Alimentación">Fuentes Alimentación</a></li>
+<li><a href="/modding" class="GTM-subfamilia-Modding">Modding</a></li>
+<li><a href="/capturadoras" class="GTM-subfamilia-Edición/Captura-Vídeo">Edición/Captura Vídeo</a></li>
+<li><a href="/cables-internos-de-pc" class="GTM-subfamilia-Cables-Internos-PC">Cables Internos PC</a></li>
+<li><a href="/conectividad" class="GTM-subfamilia-Conectividad">Conectividad</a></li>
+<li><a href="/cajas-carcasas-externas-multimedia" class="GTM-subfamilia-Carcasas-Multimedia">Carcasas Multimedia</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Pc-a-Medida">
+<h5 class="h4">Pc a Medida</h5>
+<ul>
+<li><a href="/configurador" class="GTM-subfamilia-Configurador-de-PCs">Configurador de PCs</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Sistemas-Operativos">
+<h5 class="h4">Sistemas Operativos</h5>
+<ul>
+<li><a href="/sistemas-operativos" class="GTM-subfamilia-Sistemas-operativos">Sistemas operativos</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-28" href="/perifericos" class="con-icono con-icono-perifericos hidden-md-down">Periféricos</a>
+<div data-pcc-trigger="toggle-superfamilia-28" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-perifericos menu-principal__pulsador-texto hidden-lg-up">Periféricos
+</div>
+<div data-pcc-trigger="toggle-superfamilia-28" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-28" data-pcc-listen="toggle-superfamilia-28" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">PERIFÉRICOS</h4>
+<h4 class="hidden-lg-up"><a href="/perifericos">PERIFÉRICOS</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-28" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Periféricos">
+<h5 class="h4">Periféricos</h5>
+<ul>
+<li><a href="/monitores-pc" class="GTM-subfamilia-Monitores">Monitores</a></li>
+<li><a href="/impresoras" class="GTM-subfamilia-Impresoras">Impresoras</a></li>
+<li><a href="/impresoras-3d" class="GTM-subfamilia-Impresoras-3D">Impresoras 3D</a></li>
+<li><a href="/multifunciones" class="GTM-subfamilia-Multifunciones">Multifunciones</a></li>
+<li><a href="/altavoces" class="GTM-subfamilia-Altavoces">Altavoces</a></li>
+<li><a href="/teclados" class="GTM-subfamilia-Teclados">Teclados</a></li>
+<li><a href="/ratones" class="GTM-subfamilia-Ratones">Ratones</a></li>
+<li><a href="/auriculares" class="GTM-subfamilia-Auriculares">Auriculares</a></li>
+<li><a href="/webcam" class="GTM-subfamilia-Webcam/Cámaras-Web">Webcam/Cámaras Web</a></li>
+<li><a href="/gamepads-joysticks" class="GTM-subfamilia-Gamespads/Joysticks">Gamespads/Joysticks</a></li>
+<li><a href="/microfonos" class="GTM-subfamilia-Micrófonos">Micrófonos</a></li>
+<li><a href="/tabletas-digitales" class="GTM-subfamilia-Tabletas-Digitales">Tabletas Digitales</a></li>
+<li><a href="/alfombrillas" class="GTM-subfamilia-Alfombrillas">Alfombrillas</a></li>
+<li><a href="/accesorios-gaming" class="GTM-subfamilia-Accesorios-Gaming">Accesorios Gaming</a></li>
+<li><a href="/conectividad" class="GTM-subfamilia-Conectividad">Conectividad</a></li>
+<li><a href="/regletas" class="GTM-subfamilia-Regletas">Regletas</a></li>
+<li><a href="/sais" class="GTM-subfamilia-SAIS">SAIS</a></li>
+<li><a href="/escaners" class="GTM-subfamilia-Escaners">Escaners</a></li>
+<li><a href="/gadgets" class="GTM-subfamilia-Gadgets">Gadgets</a></li>
+<li><a href="/tpv" class="GTM-subfamilia-TPV/Punto-de-Venta">TPV/Punto de Venta</a></li>
+<li><a href="/conectividad/hub" class="GTM-subfamilia-Hub-USB">Hub USB</a></li>
+<li><a href="/modding/tipo-organizacion" class="GTM-subfamilia-Organización">Organización</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Almacenamiento">
+<h5 class="h4">Almacenamiento</h5>
+<ul>
+<li><a href="/memorias-usb-pendrive" class="GTM-subfamilia-Memorias-USB">Memorias USB</a></li>
+<li><a href="/tarjetas-de-memoria" class="GTM-subfamilia-Tarjetas-de-Memoria">Tarjetas de Memoria</a></li>
+<li><a href="/discos-duros-externos" class="GTM-subfamilia-Discos-Duros-Externos">Discos Duros Externos</a></li>
+<li><a href="/discos-duros/multimedias" class="GTM-subfamilia-Discos-Duros-Multimedia">Discos Duros Multimedia</a></li>
+<li><a href="/discos-duros-carcasas-de-red-nas" class="GTM-subfamilia-Discos-Duros-de-Red/NAS">Discos Duros de Red/NAS</a></li>
+<li><a href="/cajas-carcasas-externas-multimedia" class="GTM-subfamilia-Carcasas-Multimedia">Carcasas Multimedia</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Otros">
+<h5 class="h4">Otros</h5>
+<ul>
+<li><a href="/proyectores" class="GTM-subfamilia-Proyectores">Proyectores</a></li>
+<li><a href="/presentadores-multimedia" class="GTM-subfamilia-Presentadores">Presentadores</a></li>
+<li><a href="/capturadoras" class="GTM-subfamilia-Edición/Captura-Vídeo">Edición/Captura Vídeo</a></li>
+<li><a href="/papel-para-impresora" class="GTM-subfamilia-Papel-para-impresora">Papel para impresora</a></li>
+<li><a href="/bluetooth" class="GTM-subfamilia-Bluetooth">Bluetooth</a></li>
+<li><a href="/varios" class="GTM-subfamilia-Varios">Varios</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Oficina">
+<h5 class="h4">Oficina</h5>
+<ul>
+<li><a href="/destructoras-papel" class="GTM-subfamilia-Destructoras-Papel">Destructoras Papel</a></li>
+<li><a href="/material-de-oficina" class="GTM-subfamilia-Material-de-oficina">Material de oficina</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Software">
+<h5 class="h4">Software</h5>
+<ul>
+<li><a href="/software-multimedia" class="GTM-subfamilia-Software-Multimedia">Software Multimedia</a></li>
+<li><a href="/juegos-pc" class="GTM-subfamilia-Juegos-Para-PC">Juegos Para PC</a></li>
+<li><a href="/sistemas-operativos" class="GTM-subfamilia-Sistemas-Operativos">Sistemas Operativos</a></li>
+<li><a href="/software-aplicaciones" class="GTM-subfamilia-Software-Aplicaciones">Software Aplicaciones</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-78" href="/cables" class="con-icono con-icono-cables hidden-md-down">Cables</a>
+<div data-pcc-trigger="toggle-superfamilia-78" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-cables menu-principal__pulsador-texto hidden-lg-up">Cables
+</div>
+<div data-pcc-trigger="toggle-superfamilia-78" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-78" data-pcc-listen="toggle-superfamilia-78" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">CABLES</h4>
+<h4 class="hidden-lg-up"><a href="/cables">CABLES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-78" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Cables">
+<h5 class="h4">Cables</h5>
+<ul>
+<li><a href="/conectividad" class="GTM-subfamilia-Adaptadores">Adaptadores</a></li>
+<li><a href="/cables-ata" class="GTM-subfamilia-Cables-ATA">Cables ATA</a></li>
+<li><a href="/cables-audio-video" class="GTM-subfamilia-Cables-Audio/Vídeo">Cables Audio/Vídeo</a></li>
+<li><a href="/cables-displayport" class="GTM-subfamilia-Cables-DisplayPort">Cables DisplayPort</a></li>
+<li><a href="/cables-dvi" class="GTM-subfamilia-Cables-DVI">Cables DVI</a></li>
+<li><a href="/cables-firewire" class="GTM-subfamilia-Cables-Firewire">Cables Firewire</a></li>
+<li><a href="/cables-hdmi" class="GTM-subfamilia-Cables-HDMI">Cables HDMI</a></li>
+<li><a href="/cables-de-fibra-optica" class="GTM-subfamilia-Cables-de-Fibra-Óptica">Cables de Fibra Óptica</a></li>
+<li><a href="/cables-internos-de-pc" class="GTM-subfamilia-Cables-Internos-PC">Cables Internos PC</a></li>
+<li><a href="/cables-de-red" class="GTM-subfamilia-Cables-de-Red">Cables de Red</a></li>
+<li><a href="/cables-serial-ata" class="GTM-subfamilia-Cables-Serial-ATA">Cables Serial ATA</a></li>
+<li><a href="/cables-serie-paralelo" class="GTM-subfamilia-Cables-Serie/Paralelo">Cables Serie/Paralelo</a></li>
+<li><a href="/cables-usb" class="GTM-subfamilia-Cables-USB">Cables USB</a></li>
+<li><a href="/cables-vga" class="GTM-subfamilia-Cables-VGA">Cables VGA</a></li>
+<li><a href="/cables-duplicadores-vga-dvi-hdmi" class="GTM-subfamilia-Duplicadores-DVI/HDMI">Duplicadores DVI/HDMI</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Otros">
+<h5 class="h4">Otros</h5>
+<ul>
+<li><a href="/cargadores" class="GTM-subfamilia-Cargadores">Cargadores</a></li>
+<li><a href="/kvm-switchs-y-cables" class="GTM-subfamilia-Switchs-KVM-y-Cables">Switchs KVM y Cables</a></li>
+<li><a href="/regletas" class="GTM-subfamilia-Regletas">Regletas</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-100" href="/redes" class="con-icono con-icono-redes hidden-md-down">Redes</a>
+<div data-pcc-trigger="toggle-superfamilia-100" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-redes menu-principal__pulsador-texto hidden-lg-up">Redes
+</div>
+<div data-pcc-trigger="toggle-superfamilia-100" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-100" data-pcc-listen="toggle-superfamilia-100" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">REDES</h4>
+<h4 class="hidden-lg-up"><a href="/redes">REDES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-100" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Redes">
+<h5 class="h4">Redes</h5>
+<ul>
+<li><a href="/antenas" class="GTM-subfamilia-Antenas">Antenas</a></li>
+<li><a href="/adaptadores-usb-red" class="GTM-subfamilia-Adaptadores-USB">Adaptadores USB</a></li>
+<li><a href="/cables-de-red" class="GTM-subfamilia-Cable-de-red">Cable de red</a></li>
+<li><a href="/cable-wifi-coaxial" class="GTM-subfamilia-Cable-Coaxial-WiFi">Cable Coaxial WiFi</a></li>
+<li><a href="/camaras-ip" class="GTM-subfamilia-Cámaras-IP">Cámaras IP</a></li>
+<li><a href="/hubs-switchs" class="GTM-subfamilia-Hubs/Switchs">Hubs/Switchs</a></li>
+<li><a href="/puntos-de-acceso" class="GTM-subfamilia-Puntos-de-acceso">Puntos de acceso</a></li>
+<li><a href="/redes-home-plug" class="GTM-subfamilia-Redes-Home-Plug">Redes Home Plug</a></li>
+<li><a href="/routers" class="GTM-subfamilia-Routers">Routers</a></li>
+<li><a href="/servidores-impresion" class="GTM-subfamilia-Servidores-Impresión">Servidores Impresión</a></li>
+<li><a href="/tarjetas-de-red" class="GTM-subfamilia-Tarjetas-Red">Tarjetas Red</a></li>
+<li><a href="/armarios-rack" class="GTM-subfamilia-Armarios-Rack">Armarios Rack</a></li>
+<li><a href="/paneles-de-parcheo" class="GTM-subfamilia-Paneles-de-Parcheo">Paneles de Parcheo</a></li>
+<li><a href="/herramientas-y-utiles-de-montaje" class="GTM-subfamilia-Herramientas/Útiles">Herramientas/Útiles</a></li>
+<li><a href="/voip" class="GTM-subfamilia-Teléfonos-VoIP">Teléfonos VoIP</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Domótica">
+<h5 class="h4">Domótica</h5>
+<ul>
+<li><a href="/domotica" class="GTM-subfamilia-Artículos-de-domótica">Artículos de domótica</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-119" href="/ordenadores" class="con-icono con-icono-ordenadores hidden-md-down">Ordenadores</a>
+<div data-pcc-trigger="toggle-superfamilia-119" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-ordenadores menu-principal__pulsador-texto hidden-lg-up">Ordenadores
+</div>
+<div data-pcc-trigger="toggle-superfamilia-119" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-119" data-pcc-listen="toggle-superfamilia-119" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">ORDENADORES</h4>
+<h4 class="hidden-lg-up"><a href="/ordenadores">ORDENADORES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-119" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Portátiles">
+<h5 class="h4">Portátiles</h5>
+<ul>
+<li><a href="/portatiles" class="GTM-subfamilia-Portátiles">Portátiles</a></li>
+<li><a href="/ultrabooks" class="GTM-subfamilia-Ultrabooks">Ultrabooks</a></li>
+<li><a href="/portatiles-gaming" class="GTM-subfamilia-Portátiles-Gaming">Portátiles Gaming</a></li>
+<li><a href="/portatiles-workstation" class="GTM-subfamilia-Portátiles-WorkStation">Portátiles WorkStation</a></li>
+<li><a href="/maletines-y-fundas" class="GTM-subfamilia-Maletines-y-fundas">Maletines y fundas</a></li>
+<li><a href="/mochilas-de-portatil" class="GTM-subfamilia-Mochilas-de-portátil">Mochilas de portátil</a></li>
+<li><a href="/cargadores-de-baterias" class="GTM-subfamilia-Cargadores-de-baterías">Cargadores de baterías</a></li>
+<li><a href="/accesorios-portatiles" class="GTM-subfamilia-Accesorios-Portátiles">Accesorios Portátiles</a></li>
+<li><a href="/repuestos-portatiles" class="GTM-subfamilia-Repuestos-Portátiles-">Repuestos Portátiles </a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Pcs-Sobremesa">
+<h5 class="h4">Pcs Sobremesa</h5>
+<ul>
+<li><a href="/pccom" class="GTM-subfamilia-Ordenadores-PcCom">Ordenadores PcCom</a></li>
+<li><a href="/sobremesa" class="GTM-subfamilia-Sobremesa">Sobremesa</a></li>
+<li><a href="/mini-pcs" class="GTM-subfamilia-Mini-PCs">Mini PCs</a></li>
+<li><a href="/all-in-one" class="GTM-subfamilia-Ordenadores-todo-en-uno">Ordenadores todo en uno</a></li>
+<li><a href="/ordenadores-todo-en-uno-gaming" class="GTM-subfamilia-Ordenadores-todo-en-uno-Gaming">Ordenadores todo en uno Gaming</a></li>
+<li><a href="/barebones" class="GTM-subfamilia-Barebones">Barebones</a></li>
+<li><a href="/servidores" class="GTM-subfamilia-Servidores">Servidores</a></li>
+<li><a href="/configurador" class="GTM-subfamilia-Configurador">Configurador</a></li>
+<li><a href="/pccom-modding" class="GTM-subfamilia-Ordenadores-PcCom-Modding">Ordenadores PcCom Modding</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Tablets">
+<h5 class="h4">Tablets</h5>
+<ul>
+<li><a href="/tablets" class="GTM-subfamilia-TabletPC">TabletPC</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Portátiles-Por-Marcas">
+<h5 class="h4">Portátiles Por Marcas</h5>
+<ul>
+<li><a href="/portatil-acer" class="GTM-subfamilia-Portátiles-Acer">Portátiles Acer</a></li>
+<li><a href="/macbook" class="GTM-subfamilia-Portátiles-Apple">Portátiles Apple</a></li>
+<li><a href="/portatil-asus" class="GTM-subfamilia-Portátiles-Asus">Portátiles Asus</a></li>
+<li><a href="/portatiles-dell" class="GTM-subfamilia-Portátiles-Dell">Portátiles Dell</a></li>
+<li><a href="/portatiles-fujitsu" class="GTM-subfamilia-Portátiles-Fujitsu">Portátiles Fujitsu</a></li>
+<li><a href="/portatil-hp" class="GTM-subfamilia-Portátiles-HP">Portátiles HP</a></li>
+<li><a href="/portatiles-lenovo" class="GTM-subfamilia-Portátiles-Lenovo">Portátiles Lenovo</a></li>
+<li><a href="/portatiles-msi" class="GTM-subfamilia-Portátiles-MSI">Portátiles MSI</a></li>
+<li><a href="/portatiles-packard-bell" class="GTM-subfamilia-Portátiles-Packard-Bell">Portátiles Packard Bell</a></li>
+<li><a href="/portatiles-samsung" class="GTM-subfamilia-Portátiles-Samsung">Portátiles Samsung</a></li>
+<li><a href="/portatiles-sony" class="GTM-subfamilia-Portátiles-Sony">Portátiles Sony</a></li>
+<li><a href="/portatiles-toshiba" class="GTM-subfamilia-Portátiles-Toshiba">Portátiles Toshiba</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-157" href="/audio-foto-video" class="con-icono con-icono-fotografia hidden-md-down">Audio/Foto/Vídeo</a>
+<div data-pcc-trigger="toggle-superfamilia-157" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-fotografia menu-principal__pulsador-texto hidden-lg-up">Audio/Foto/Vídeo
+</div>
+<div data-pcc-trigger="toggle-superfamilia-157" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-157" data-pcc-listen="toggle-superfamilia-157" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">AUDIO/FOTO/VÍDEO</h4>
+<h4 class="hidden-lg-up"><a href="/audio-foto-video">AUDIO/FOTO/VÍDEO</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-157" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-TV">
+<h5 class="h4">TV</h5>
+<ul>
+<li><a href="/televisores" class="GTM-subfamilia-Televisores">Televisores</a></li>
+<li><a href="/home-cinema" class="GTM-subfamilia-Home-Cinema">Home Cinema</a></li>
+<li><a href="/altavoces-tv-barras-sonido" class="GTM-subfamilia-Altavoces-TV/Barras-de-Sonido">Altavoces TV/Barras de Sonido</a></li>
+<li><a href="/gafas-3d" class="GTM-subfamilia-Gafas-3D">Gafas 3D</a></li>
+<li><a href="/monitores-pc" class="GTM-subfamilia-Monitores">Monitores</a></li>
+<li><a href="/accesorios-de-soportes" class="GTM-subfamilia-Soportes-TV/Monitor">Soportes TV/Monitor</a></li>
+<li><a href="/proyectores" class="GTM-subfamilia-Proyectores">Proyectores</a></li>
+<li><a href="/pantallas-de-proyeccion" class="GTM-subfamilia-Pantallas-Proyección">Pantallas Proyección</a></li>
+<li><a href="/pizarras-digitales" class="GTM-subfamilia-Pizarras-Digitales">Pizarras Digitales</a></li>
+<li><a href="/android-smart-tv" class="GTM-subfamilia-Android/Smart-TV">Android/Smart TV</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Audio">
+<h5 class="h4">Audio</h5>
+<ul>
+<li><a href="/reproductores-mp3-mp4" class="GTM-subfamilia-Reproductores-MP3/MP4">Reproductores MP3/MP4</a></li>
+<li><a href="/altavoces" class="GTM-subfamilia-Altavoces">Altavoces</a></li>
+<li><a href="/microfonos" class="GTM-subfamilia-Micrófonos">Micrófonos</a></li>
+<li><a href="/auriculares" class="GTM-subfamilia-Auriculares">Auriculares</a></li>
+<li><a href="/micro-cadenas-hi-fi" class="GTM-subfamilia-Micro-Cadenas/Hi-Fi">Micro-Cadenas/Hi-Fi</a></li>
+<li><a href="/car-audio" class="GTM-subfamilia-Car-Audio/Auto-Radios">Car Audio/Auto Radios</a></li>
+<li><a href="/accesorios-coche" class="GTM-subfamilia-Accesorios-Automóvil">Accesorios Automóvil</a></li>
+<li><a href="/conectividad/adaptador-audio" class="GTM-subfamilia-Adaptadores-Audio">Adaptadores Audio</a></li>
+<li><a href="/grabadoras-digitales" class="GTM-subfamilia-Grabadoras-Digitales">Grabadoras Digitales</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Audio-Profesional-y-DJ">
+<h5 class="h4">Audio Profesional y DJ</h5>
+<ul>
+<li><a href="/audio-pro" class="GTM-subfamilia-Audio-Pro">Audio Pro</a></li>
+<li><a href="/mundo-dj" class="GTM-subfamilia-Mundo-DJ">Mundo DJ</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Fotografía">
+<h5 class="h4">Fotografía</h5>
+<ul>
+<li><a href="/camaras-digitales" class="GTM-subfamilia-Cámaras-Digitales">Cámaras Digitales</a></li>
+<li><a href="/camaras-reflex" class="GTM-subfamilia-Cámaras-Reflex">Cámaras Reflex</a></li>
+<li><a href="/accesorios-camaras" class="GTM-subfamilia-Accesorios-Camaras">Accesorios Camaras</a></li>
+<li><a href="/tarjetas-de-memoria" class="GTM-subfamilia-Tarjetas-De-Memoria">Tarjetas De Memoria</a></li>
+<li><a href="/multilectores" class="GTM-subfamilia-Lectores-de-Tarjetas">Lectores de Tarjetas</a></li>
+<li><a href="/papel-para-impresora" class="GTM-subfamilia-Papel-Fotográfico">Papel Fotográfico</a></li>
+<li><a href="/impresoras" class="GTM-subfamilia-Impresoras">Impresoras</a></li>
+<li><a href="/marcos-digitales" class="GTM-subfamilia-Marcos-Digitales">Marcos Digitales</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Vídeo">
+<h5 class="h4">Vídeo</h5>
+<ul>
+<li><a href="/reproductores-blu-ray-dvd" class="GTM-subfamilia-Reproductores-Blu-Ray/DVD">Reproductores Blu Ray/DVD</a></li>
+<li><a href="/capturadoras" class="GTM-subfamilia-Edición/Captura-Vídeo">Edición/Captura Vídeo</a></li>
+<li><a href="/videocamaras" class="GTM-subfamilia-Videocamaras">Videocamaras</a></li>
+<li><a href="/receptores-tv" class="GTM-subfamilia-Receptores-TV">Receptores TV</a></li>
+<li><a href="/multimedia" class="GTM-subfamilia-Multimedia">Multimedia</a></li>
+<li><a href="/camaras-ip" class="GTM-subfamilia-Cámaras-IP">Cámaras IP</a></li>
+<li><a href="/accesorios-gopro" class="GTM-subfamilia-Accesorios-Cámaras-Deportivas">Accesorios Cámaras Deportivas</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Otros">
+<h5 class="h4">Otros</h5>
+<ul>
+<li><a href="/libros-electronicos-e-books" class="GTM-subfamilia-Libros-electrónicos">Libros electrónicos</a></li>
+<li><a href="/audio-video-inalambrico" class="GTM-subfamilia-Audio/Vídeo-Inalámbrico">Audio/Vídeo Inalámbrico</a></li>
+<li><a href="/mandos-a-distancia" class="GTM-subfamilia-Mandos-a-Distancia">Mandos a Distancia</a></li>
+<li><a href="/cables-audio-video" class="GTM-subfamilia-Cables-Audio/Vídeo-">Cables Audio/Vídeo </a></li>
+<li><a href="/accesorios-portatiles/adaptador" class="GTM-subfamilia-Cargadores-Universales">Cargadores Universales</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-206" href="/tablet-pc-ebook/tablets-pc-ebook" class="con-icono con-icono-tabletspc hidden-md-down">Tablets/Ebooks</a>
+<div data-pcc-trigger="toggle-superfamilia-206" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-tabletspc menu-principal__pulsador-texto hidden-lg-up">Tablets/Ebooks
+</div>
+<div data-pcc-trigger="toggle-superfamilia-206" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-206" data-pcc-listen="toggle-superfamilia-206" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">TABLETS/EBOOKS</h4>
+<h4 class="hidden-lg-up"><a href="/tablet-pc-ebook/tablets-pc-ebook">TABLETS/EBOOKS</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-206" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Tablets">
+<h5 class="h4">Tablets</h5>
+<ul>
+<li><a href="/tablets" class="GTM-subfamilia-Tablets">Tablets</a></li>
+<li><a href="/fundas-para-tablets" class="GTM-subfamilia-Fundas-para-tablets">Fundas para tablets</a></li>
+<li><a href="/protectores-de-pantalla" class="GTM-subfamilia-Protectores-de-pantalla">Protectores de pantalla</a></li>
+<li><a href="/soportes-para-tablets" class="GTM-subfamilia-Soportes-para-tablets">Soportes para tablets</a></li>
+<li><a href="/micro-sd" class="GTM-subfamilia-Tarjetas-MicroSD">Tarjetas MicroSD</a></li>
+<li><a href="/accesorios-para-tablets" class="GTM-subfamilia-Accesorios-para-Tablets">Accesorios para Tablets</a></li>
+<li><a href="/teclados-para-tablets-samsung" class="GTM-subfamilia-Teclados-para-Tablets-Samsung">Teclados para Tablets Samsung</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Fundas-personalizadas">
+<h5 class="h4">Fundas personalizadas</h5>
+<ul>
+<li><a href="/carcasas-personalizadas" class="GTM-subfamilia-Fundas-personalizadas">Fundas personalizadas</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-iPad">
+<h5 class="h4">iPad</h5>
+<ul>
+<li><a href="/ipad" class="GTM-subfamilia-iPad">iPad</a></li>
+<li><a href="/teclados-ipad" class="GTM-subfamilia-Teclados-para-iPad">Teclados para iPad</a></li>
+<li><a href="/teclados-para-ipad-air-air-2" class="GTM-subfamilia-Teclados-para-iPad-Air/Air-2">Teclados para iPad Air/Air 2</a></li>
+<li><a href="/fundas-ipad-air-2" class="GTM-subfamilia-Fundas-iPad-Air-2">Fundas iPad Air 2</a></li>
+<li><a href="/fundas-ipad-air" class="GTM-subfamilia-Fundas-iPad-Air">Fundas iPad Air</a></li>
+<li><a href="/fundas-ipad-mini" class="GTM-subfamilia-Fundas-iPad-Mini">Fundas iPad Mini</a></li>
+<li><a href="/protectores-pantalla-ipad" class="GTM-subfamilia-Protectores-Pantalla">Protectores Pantalla</a></li>
+<li><a href="/memorias-usb-lightning" class="GTM-subfamilia-Memorias-USB-Lightning">Memorias USB Lightning</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Reloj-Smartwatch">
+<h5 class="h4">Reloj Smartwatch</h5>
+<ul>
+<li><a href="/smartwatch" class="GTM-subfamilia-Reloj-Smartwatch">Reloj Smartwatch</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-eBooks">
+<h5 class="h4">eBooks</h5>
+<ul>
+<li><a href="/libros-electronicos-e-books" class="GTM-subfamilia-eBooks/Libros-electrónicos">eBooks/Libros electrónicos</a></li>
+<li><a href="/accesorios-libros-electronicos" class="GTM-subfamilia-Accesorios-e-Books">Accesorios e-Books</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Automóvil">
+<h5 class="h4">Automóvil</h5>
+<ul>
+<li><a href="/accesorios-coche" class="GTM-subfamilia-Accesorios-Automóvil">Accesorios Automóvil</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-237" href="/smartphones-gps" class="con-icono con-icono-smartphones-gps hidden-md-down">SmartPhones</a>
+<div data-pcc-trigger="toggle-superfamilia-237" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-smartphones-gps menu-principal__pulsador-texto hidden-lg-up">SmartPhones
+</div>
+<div data-pcc-trigger="toggle-superfamilia-237" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-237" data-pcc-listen="toggle-superfamilia-237" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">SMARTPHONES</h4>
+<h4 class="hidden-lg-up"><a href="/smartphones-gps">SMARTPHONES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-237" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Smartphones">
+<h5 class="h4">Smartphones</h5>
+<ul>
+<li><a href="/smartphone-moviles" class="GTM-subfamilia-Smartphones">Smartphones</a></li>
+<li><a href="/fundas-smartphone" class="GTM-subfamilia-Fundas-Smartphone">Fundas Smartphone</a></li>
+<li><a href="/accesorios-smartphone/protector" class="GTM-subfamilia-Accesorios-Smartphone">Accesorios Smartphone</a></li>
+<li><a href="/micro-sd" class="GTM-subfamilia-Tarjetas-MicroSD">Tarjetas MicroSD</a></li>
+<li><a href="/powerbanks" class="GTM-subfamilia-Powerbanks">Powerbanks</a></li>
+<li><a href="/accesorios-smartphone" class="GTM-subfamilia-Accesorios-Smartphone">Accesorios Smartphone</a></li>
+<li><a href="/accesorios-smartphone/accesorios-universales" class="GTM-subfamilia-Accesorios-Universales">Accesorios Universales</a></li>
+<li><a href="/gafas-realidad-virtual" class="GTM-subfamilia-Gafas-de-Realidad-Virtual">Gafas de Realidad Virtual</a></li>
+<li><a href="/memorias-microusb" class="GTM-subfamilia-Memorias-MicroUSB">Memorias MicroUSB</a></li>
+<li><a href="/repuestos-smartphones" class="GTM-subfamilia-Repuestos-Smartphone">Repuestos Smartphone</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Fundas-y-carcasas-personalizadas">
+<h5 class="h4">Fundas y carcasas personalizadas</h5>
+<ul>
+<li><a href="/carcasas-personalizadas" class="GTM-subfamilia-Carcasas-personalizadas">Carcasas personalizadas</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Mundo-iPhone">
+<h5 class="h4">Mundo iPhone</h5>
+<ul>
+<li><a href="/iphone" class="GTM-subfamilia-iPhone">iPhone</a></li>
+<li><a href="/accesorios-iphone" class="GTM-subfamilia-Accesorios-iPhone">Accesorios iPhone</a></li>
+<li><a href="/memorias-usb-lightning" class="GTM-subfamilia-Memorias-USB-Lightning">Memorias USB Lightning</a></li>
+<li><a href="/altavoces-iphone" class="GTM-subfamilia-Altavoces/Bases-iPhone">Altavoces/Bases iPhone</a></li>
+<li><a href="/earpods" class="GTM-subfamilia-Auriculares-iPhone">Auriculares iPhone</a></li>
+<li><a href="/repuestos-reparacion-iphone" class="GTM-subfamilia-Repuestos-iPhone">Repuestos iPhone</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Wearables">
+<h5 class="h4">Wearables</h5>
+<ul>
+<li><a href="/pulseras-de-actividad" class="GTM-subfamilia-Pulseras-de-Actividad">Pulseras de Actividad</a></li>
+<li><a href="/smartwatch" class="GTM-subfamilia-Relojes-Smartwatch">Relojes Smartwatch</a></li>
+<li><a href="/accesorios-smartwatch" class="GTM-subfamilia-Accesorios-Smartwatch">Accesorios Smartwatch</a></li>
+<li><a href="/relojes-running" class="GTM-subfamilia-Relojes-Running">Relojes Running</a></li>
+<li><a href="/auriculares-bluetooth-deportivos" class="GTM-subfamilia-Auriculares-Bluetooth-Deportivos">Auriculares Bluetooth Deportivos</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-GPS">
+<h5 class="h4">GPS</h5>
+<ul>
+<li><a href="/navegador-gps" class="GTM-subfamilia-GPS-Automoción">GPS Automoción</a></li>
+<li><a href="/accesorios-gps" class="GTM-subfamilia-Accesorios-para-GPS">Accesorios para GPS</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Automóvil">
+<h5 class="h4">Automóvil</h5>
+<ul>
+<li><a href="/accesorios-coche" class="GTM-subfamilia-Accesorios-Automóvil">Accesorios Automóvil</a></li>
+<li><a href="/car-audio" class="GTM-subfamilia-Car-Audio/Auto-Radios">Car Audio/Auto Radios</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-271" href="/consolas-gaming" class="con-icono con-icono-consolas-gaming hidden-md-down">Consolas/Gaming</a>
+<div data-pcc-trigger="toggle-superfamilia-271" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-consolas-gaming menu-principal__pulsador-texto hidden-lg-up">Consolas/Gaming
+</div>
+<div data-pcc-trigger="toggle-superfamilia-271" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-271" data-pcc-listen="toggle-superfamilia-271" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">CONSOLAS/GAMING</h4>
+<h4 class="hidden-lg-up"><a href="/consolas-gaming">CONSOLAS/GAMING</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-271" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Sony-PS4">
+<h5 class="h4">Sony PS4</h5>
+<ul>
+<li><a href="/videoconsolas-ps4" class="GTM-subfamilia-Videoconsolas-PS4">Videoconsolas PS4</a></li>
+<li><a href="/juegos-ps4" class="GTM-subfamilia-Juegos-PS4">Juegos PS4</a></li>
+<li><a href="/accesorios-ps4" class="GTM-subfamilia-Accesorios-PS4">Accesorios PS4</a></li>
+<li><a href="/mandos-ps4" class="GTM-subfamilia-Mandos-PS4">Mandos PS4</a></li>
+<li><a href="/volantes-ps4" class="GTM-subfamilia-Volantes-PS4">Volantes PS4</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-XBox-One">
+<h5 class="h4">XBox One</h5>
+<ul>
+<li><a href="/videoconsolas-xbox-one" class="GTM-subfamilia-Videoconsolas-Xbox-One">Videoconsolas Xbox One</a></li>
+<li><a href="/juegos-xbox-one" class="GTM-subfamilia-Juegos-Xbox-One">Juegos Xbox One</a></li>
+<li><a href="/mandos-xbox-one" class="GTM-subfamilia-Mandos-Xbox-One">Mandos Xbox One</a></li>
+<li><a href="/accesorios-xbox-one" class="GTM-subfamilia-Accesorios-Xbox-One">Accesorios Xbox One</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Sony-PS3">
+<h5 class="h4">Sony PS3</h5>
+<ul>
+<li><a href="/juegos-ps3" class="GTM-subfamilia-Juegos-PS3">Juegos PS3</a></li>
+<li><a href="/mandos-ps3" class="GTM-subfamilia-Mandos-PS3">Mandos PS3</a></li>
+<li><a href="/volantes-ps3" class="GTM-subfamilia-Volantes-PS3">Volantes PS3</a></li>
+<li><a href="/accesorios-ps3" class="GTM-subfamilia-Accesorios-PS3">Accesorios PS3</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-XBox-360">
+<h5 class="h4">XBox 360</h5>
+<ul>
+<li><a href="/videoconsolas-xbox-360" class="GTM-subfamilia-Videoconsolas-Xbox-360">Videoconsolas Xbox 360</a></li>
+<li><a href="/juegos-xbox-360" class="GTM-subfamilia-Juegos-Xbox-360">Juegos Xbox 360</a></li>
+<li><a href="/xbox-360-mandos" class="GTM-subfamilia-Mandos-Xbox-360">Mandos Xbox 360</a></li>
+<li><a href="/xbox-360-accesorios" class="GTM-subfamilia-Accesorios-Xbox-360-">Accesorios Xbox 360 </a></li>
+<li><a href="/xbox-360-baterias-y-cargadores" class="GTM-subfamilia-Baterías/cargadores">Baterías/cargadores</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Nintendo-Wii/WiiU">
+<h5 class="h4">Nintendo Wii/WiiU</h5>
+<ul>
+<li><a href="/videoconsolas-nintendo-wii" class="GTM-subfamilia-Videoconsolas-Wii/Wii-U">Videoconsolas Wii/Wii U</a></li>
+<li><a href="/juegos-nintendo-wii" class="GTM-subfamilia-Juegos-Nintendo-Wii/Wii-U">Juegos Nintendo Wii/Wii U</a></li>
+<li><a href="/mandos-nintendo-wii" class="GTM-subfamilia-Mandos-Nintendo-Wii">Mandos Nintendo Wii</a></li>
+<li><a href="/accesorios-nintendo-wii" class="GTM-subfamilia-Accesorios-Nintendo-Wii/Wii-U">Accesorios Nintendo Wii/Wii U</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Nintendo-DS/3DS">
+<h5 class="h4">Nintendo DS/3DS</h5>
+<ul>
+<li><a href="/videoconsolas-nintendo-ds-3ds" class="GTM-subfamilia-Videoconsolas-DS/3DS">Videoconsolas DS/3DS</a></li>
+<li><a href="/accesorios-nintendo-ds-3ds" class="GTM-subfamilia-Accesorios-DS/3DS">Accesorios DS/3DS</a></li>
+<li><a href="/juegos-nintendo-3ds" class="GTM-subfamilia-Juegos-Nintendo-3DS">Juegos Nintendo 3DS</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Sony-PSP/PS-Vita">
+<h5 class="h4">Sony PSP/PS Vita</h5>
+<ul>
+<li><a href="/videoconsolas-ps-vita" class="GTM-subfamilia-Videoconsolas-PS-Vita">Videoconsolas PS Vita</a></li>
+<li><a href="/juegos-ps-vita" class="GTM-subfamilia-Juegos-PS-Vita">Juegos PS Vita</a></li>
+<li><a href="/accesorios-ps-vita" class="GTM-subfamilia-Accesorios-PS-Vita">Accesorios PS Vita</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-PC-Gaming">
+<h5 class="h4">PC Gaming</h5>
+<ul>
+<li><a href="/gamepads" class="GTM-subfamilia-Gamepads/Mandos">Gamepads/Mandos</a></li>
+<li><a href="/volantes" class="GTM-subfamilia-Volantes">Volantes</a></li>
+<li><a href="/joysticks" class="GTM-subfamilia-Joysticks">Joysticks</a></li>
+<li><a href="/auriculares-gaming" class="GTM-subfamilia-Auriculares-Gaming">Auriculares Gaming</a></li>
+<li><a href="/teclados-gaming" class="GTM-subfamilia-Teclados-Gaming">Teclados Gaming</a></li>
+<li><a href="/ratones-gaming" class="GTM-subfamilia-Ratones-Gaming">Ratones Gaming</a></li>
+<li><a href="/accesorios-gaming" class="GTM-subfamilia-Accesorios-Gaming">Accesorios Gaming</a></li>
+<li><a href="/alfombrillas" class="GTM-subfamilia-Alfombrillas">Alfombrillas</a></li>
+<li><a href="/juegos-pc" class="GTM-subfamilia-Juegos-PC">Juegos PC</a></li>
+<li><a href="/tablets-nvidia" class="GTM-subfamilia-Nvidia-Shield">Nvidia Shield</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Consolas-Retro">
+<h5 class="h4">Consolas Retro</h5>
+<ul>
+<li><a href="/consolas-retro" class="GTM-subfamilia-Consolas-Retro">Consolas Retro</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Nintendo-Switch">
+<h5 class="h4">Nintendo Switch</h5>
+<ul>
+<li><a href="/juegos-nintendo-switch" class="GTM-subfamilia-Juegos-Nintendo-Switch">Juegos Nintendo Switch</a></li>
+<li><a href="/accesorios-nintendo-switch" class="GTM-subfamilia-Accesorios-Nintendo-Switch">Accesorios Nintendo Switch</a></li>
+<li><a href="/mandos-nintendo-switch" class="GTM-subfamilia-Mandos-Nintendo-Switch">Mandos Nintendo Switch</a></li>
+<li><a href="/videoconsolas-nintendo-switch" class="GTM-subfamilia-Videoconsolas-Nintendo-Switch">Videoconsolas Nintendo Switch</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-320" href="/consumibles" class="con-icono con-icono-consumibles hidden-md-down">Consumibles</a>
+<div data-pcc-trigger="toggle-superfamilia-320" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-consumibles menu-principal__pulsador-texto hidden-lg-up">Consumibles
+</div>
+<div data-pcc-trigger="toggle-superfamilia-320" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-320" data-pcc-listen="toggle-superfamilia-320" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">CONSUMIBLES</h4>
+<h4 class="hidden-lg-up"><a href="/consumibles">CONSUMIBLES</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-320" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Discos-CD/DVD">
+<h5 class="h4">Discos CD/DVD</h5>
+<ul>
+<li><a href="/cd-dvd" class="GTM-subfamilia-CDs/DVDs">CDs/DVDs</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-HP">
+<h5 class="h4">Tinta HP</h5>
+<ul>
+<li><a href="/hp-original" class="GTM-subfamilia-Tinta-HP-Original">Tinta HP Original</a></li>
+<li><a href="/hp-compatible" class="GTM-subfamilia-Tinta-HP-Compatible">Tinta HP Compatible</a></li>
+<li><a href="/toner-original" class="GTM-subfamilia-Toner-HP-Original">Toner HP Original</a></li>
+<li><a href="/toner-compatible" class="GTM-subfamilia-Toner-HP-Compatible">Toner HP Compatible</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Samsung">
+<h5 class="h4">Tinta Samsung</h5>
+<ul>
+<li><a href="/tinta-samsung-original" class="GTM-subfamilia-Toner-Samsung-Original">Toner Samsung Original</a></li>
+<li><a href="/toner-compatible" class="GTM-subfamilia-Toner-Compatible">Toner Compatible</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Epson">
+<h5 class="h4">Tinta Epson</h5>
+<ul>
+<li><a href="/epson-original" class="GTM-subfamilia-Tinta-Epson-Original">Tinta Epson Original</a></li>
+<li><a href="/epson-compatible" class="GTM-subfamilia-Tinta-Epson-Compatible">Tinta Epson Compatible</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Brother">
+<h5 class="h4">Tinta Brother</h5>
+<ul>
+<li><a href="/brother-original" class="GTM-subfamilia-Tinta-Brother-Original">Tinta Brother Original</a></li>
+<li><a href="/brother-compatible" class="GTM-subfamilia-Tinta-Brother-Compatible">Tinta Brother Compatible</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Canon">
+<h5 class="h4">Tinta Canon</h5>
+<ul>
+<li><a href="/canon-original" class="GTM-subfamilia-Tinta-Canon-Original">Tinta Canon Original</a></li>
+<li><a href="/canon-compatible" class="GTM-subfamilia-Tinta-Canon-Compatible">Tinta Canon Compatible</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Panasonic">
+<h5 class="h4">Tinta Panasonic</h5>
+<ul>
+<li><a href="/tinta-panasonic" class="GTM-subfamilia-Toner-Panasonic">Toner Panasonic</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-OKI">
+<h5 class="h4">Tinta OKI</h5>
+<ul>
+<li><a href="/tinta-oki" class="GTM-subfamilia-Toner-OKI">Toner OKI</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Lexmark">
+<h5 class="h4">Tinta Lexmark</h5>
+<ul>
+<li><a href="/tinta-lexmark" class="GTM-subfamilia-Tinta-Lexmark">Tinta Lexmark</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Tinta-Kyocera">
+<h5 class="h4">Tinta Kyocera</h5>
+<ul>
+<li><a href="/tinta-kyocera" class="GTM-subfamilia-Tinta-Kyocera">Tinta Kyocera</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Consumibles-Impresoras-3D">
+<h5 class="h4">Consumibles Impresoras 3D</h5>
+<ul>
+<li><a href="/bobinas-filamento-pla" class="GTM-subfamilia-Bobinas-Filamento-PLA">Bobinas Filamento PLA</a></li>
+<li><a href="/bobinas-filamento-abs" class="GTM-subfamilia-Bobinas-Filamento-ABS">Bobinas Filamento ABS</a></li>
+<li><a href="/bobinas-filamento-tpe" class="GTM-subfamilia-Bobinas-Filamento-TPE">Bobinas Filamento TPE</a></li>
+<li><a href="/repuestos-impresora-3d" class="GTM-subfamilia-Repuestos-Impresora-3D">Repuestos Impresora 3D</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Otros">
+<h5 class="h4">Otros</h5>
+<ul>
+<li><a href="/papel-para-impresora" class="GTM-subfamilia-Papel-para-impresora">Papel para impresora</a></li>
+<li><a href="/destructoras-papel" class="GTM-subfamilia-Destructoras-Papel">Destructoras Papel</a></li>
+<li><a href="/material-de-oficina" class="GTM-subfamilia-Material-de-oficina">Material de oficina</a></li>
+<li><a href="/capsulas-para-cafeteras" class="GTM-subfamilia-Cápsulas-Para-Cafeteras">Cápsulas Para Cafeteras</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-359" href="/electro-hogar" class="con-icono con-icono-electro-hogar hidden-md-down">Electro-Hogar</a>
+<div data-pcc-trigger="toggle-superfamilia-359" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-electro-hogar menu-principal__pulsador-texto hidden-lg-up">Electro-Hogar
+</div>
+<div data-pcc-trigger="toggle-superfamilia-359" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-359" data-pcc-listen="toggle-superfamilia-359" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">ELECTRO-HOGAR</h4>
+<h4 class="hidden-lg-up"><a href="/electro-hogar">ELECTRO-HOGAR</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-359" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Electrodomesticos">
+<h5 class="h4">Electrodomesticos</h5>
+<ul>
+<li><a href="/robots-cocina" class="GTM-subfamilia-Robots-de-cocina">Robots de cocina</a></li>
+<li><a href="/hornos-y-microondas" class="GTM-subfamilia-Hornos-y-Microondas">Hornos y Microondas</a></li>
+<li><a href="/sandwicheras" class="GTM-subfamilia-Sandwicheras-y-Tostadoras">Sandwicheras y Tostadoras</a></li>
+<li><a href="/aspiradoras" class="GTM-subfamilia-Aspiradoras">Aspiradoras</a></li>
+<li><a href="/cafeteras" class="GTM-subfamilia-Cafeteras">Cafeteras</a></li>
+<li><a href="/capsulas-para-cafeteras" class="GTM-subfamilia-Cápsulas-Para-Cafeteras">Cápsulas Para Cafeteras</a></li>
+<li><a href="/ventilacion-y-climatacion" class="GTM-subfamilia-Ventilación-y-climatización">Ventilación y climatización</a></li>
+<li><a href="/planchas-y-barbacoas" class="GTM-subfamilia-Barbacoas-y-Planchas">Barbacoas y Planchas</a></li>
+<li><a href="/otros-electrodomesticos" class="GTM-subfamilia-Otros-electrodomésticos">Otros electrodomésticos</a></li>
+<li><a href="/planchado" class="GTM-subfamilia-Planchas-y-Centros-de-Planchado">Planchas y Centros de Planchado</a></li>
+<li><a href="/batidoras" class="GTM-subfamilia-Batidoras">Batidoras</a></li>
+<li><a href="/licuadoras" class="GTM-subfamilia-Licuadoras">Licuadoras</a></li>
+<li><a href="/freidoras" class="GTM-subfamilia-Freidoras">Freidoras</a></li>
+<li><a href="/exprimidores" class="GTM-subfamilia-Exprimidores">Exprimidores</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Salud-y-Belleza">
+<h5 class="h4">Salud y Belleza</h5>
+<ul>
+<li><a href="/cuidado-facial-y-corporal" class="GTM-subfamilia-Cuidado-facial-y-corporal">Cuidado facial y corporal</a></li>
+<li><a href="/cuidado-bucal" class="GTM-subfamilia-Higiene-bucal">Higiene bucal</a></li>
+<li><a href="/cuidados-del-cabello" class="GTM-subfamilia-Cuidado-del-cabello">Cuidado del cabello</a></li>
+<li><a href="/salud-y-bienestar" class="GTM-subfamilia-Salud-y-bienestar">Salud y bienestar</a></li>
+<li><a href="/basculas" class="GTM-subfamilia-Básculas">Básculas</a></li>
+<li><a href="/planchas-de-pelo" class="GTM-subfamilia-Planchas-de-pelo">Planchas de pelo</a></li>
+<li><a href="/afeitadoras" class="GTM-subfamilia-Afeitadoras">Afeitadoras</a></li>
+<li><a href="/cortapelos" class="GTM-subfamilia-Cortapelos">Cortapelos</a></li>
+<li><a href="/secadores" class="GTM-subfamilia-Secadores">Secadores</a></li>
+<li><a href="/depiladoras" class="GTM-subfamilia-Depiladoras">Depiladoras</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Hogar">
+<h5 class="h4">Hogar</h5>
+<ul>
+<li><a href="/ahorro-energetico" class="GTM-subfamilia-Ahorro-Energético">Ahorro Energético</a></li>
+<li><a href="/telefonos-inalambricos" class="GTM-subfamilia-Teléfonos-Sobremesa-e-Inalámbricos">Teléfonos Sobremesa e Inalámbricos</a></li>
+<li><a href="/walkie-talkie" class="GTM-subfamilia-Walkie-Talkie">Walkie Talkie</a></li>
+<li><a href="/iluminacion-hogar" class="GTM-subfamilia-Iluminación">Iluminación</a></li>
+<li><a href="/pilas-y-baterias" class="GTM-subfamilia-Pilas-y-Baterías">Pilas y Baterías</a></li>
+<li><a href="/seguridad-y-vigilancia" class="GTM-subfamilia-Seguridad/Vigilancia">Seguridad/Vigilancia</a></li>
+<li><a href="/marcos-digitales" class="GTM-subfamilia-Marcos-Digitales">Marcos Digitales</a></li>
+<li><a href="/varios-electro-hogar" class="GTM-subfamilia-Varios-Electro-Hogar">Varios Electro-Hogar</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Bricolaje-Y-Jardín">
+<h5 class="h4">Bricolaje Y Jardín</h5>
+<ul>
+<li><a href="/herramienta-electrica" class="GTM-subfamilia-Herramienta-Eléctrica">Herramienta Eléctrica</a></li>
+<li><a href="/herramienta-de-mano" class="GTM-subfamilia-Herramienta-de-Mano">Herramienta de Mano</a></li>
+<li><a href="/hidrolimpiadoras" class="GTM-subfamilia-Hidrolimpiadoras">Hidrolimpiadoras</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Oficina">
+<h5 class="h4">Oficina</h5>
+<ul>
+<li><a href="/destructoras-papel" class="GTM-subfamilia-Destructoras-Papel">Destructoras Papel</a></li>
+<li><a href="/material-de-oficina" class="GTM-subfamilia-Material-de-oficina">Material de oficina</a></li>
+<li><a href="/sillas" class="GTM-subfamilia-Sillas">Sillas</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Domótica">
+<h5 class="h4">Domótica</h5>
+<ul>
+<li><a href="/domotica" class="GTM-subfamilia-Artículos-de-domótica">Artículos de domótica</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-TV">
+<h5 class="h4">TV</h5>
+<ul>
+<li><a href="/mandos-a-distancia" class="GTM-subfamilia-Mandos-a-Distancia">Mandos a Distancia</a></li>
+<li><a href="/televisores" class="GTM-subfamilia-Televisores">Televisores</a></li>
+<li><a href="/gafas-3d" class="GTM-subfamilia-Gafas-3D">Gafas 3D</a></li>
+<li><a href="/monitores-pc" class="GTM-subfamilia-Monitores-TFT">Monitores TFT</a></li>
+<li><a href="/accesorios-de-soportes" class="GTM-subfamilia-Soportes-TV/Monitor">Soportes TV/Monitor</a></li>
+<li><a href="/cables-audio-video" class="GTM-subfamilia-Cables-Audio/Video">Cables Audio/Video</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-principal__superfamilia">
+<div class="menu-principal__enlace-boton">
+<a id="GTM-superfamilia-415" href="/ocio-y-tiempo-libre" class="con-icono con-icono-zona-gadgets hidden-md-down">Ocio y tiempo libre</a>
+<div data-pcc-trigger="toggle-superfamilia-415" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="con-icono con-icono-zona-gadgets menu-principal__pulsador-texto hidden-lg-up">Ocio y tiempo libre
+</div>
+<div data-pcc-trigger="toggle-superfamilia-415" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">-</i>
+</div>
+</div>
+<div class="menu-principal__seccion-familias menu-principal__seccion-familia-415" data-pcc-listen="toggle-superfamilia-415" data-pcc-class="superfamilia--desplegada" data-pcc-group="superfamilias-desplegables" data-pcc-active="0">
+<div class="menu-principal__cabecera-seccion cabecera-familia">
+<h4 class="hidden-md-down">OCIO Y TIEMPO LIBRE</h4>
+<h4 class="hidden-lg-up"><a href="/ocio-y-tiempo-libre">OCIO Y TIEMPO LIBRE</a></h4>
+<div data-pcc-trigger="toggle-superfamilia-415" data-pcc-event="click" data-pcc-group="superfamilias-desplegables" class="menu-principal__interruptor hidden-lg-up"><i class="pccom-icon">0</i>
+</div>
+</div>
+<div class="menu-principal__seccion__flecha">
+<img src="https://cdn.pccomponentes.com/img/iconos/menu-arrows-familia.png" class="img-fluid" alt=">">
+</div>
+<div class="row menu-principal__categorias-de-familia">
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Gadgets-y-Smart-Technology">
+<h5 class="h4">Gadgets y Smart Technology</h5>
+<ul>
+<li><a href="/smartwatch" class="GTM-subfamilia-Smartwatches">Smartwatches</a></li>
+<li><a href="/gadgets" class="GTM-subfamilia-Gadgets">Gadgets</a></li>
+<li><a href="/camaras-de-vigilancia" class="GTM-subfamilia-Cámaras-de-Vigilancia">Cámaras de Vigilancia</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Deporte">
+<h5 class="h4">Deporte</h5>
+<ul>
+<li><a href="/pulseras-de-actividad" class="GTM-subfamilia-Pulsera-de-Actividad">Pulsera de Actividad</a></li>
+<li><a href="/relojes-deportivos" class="GTM-subfamilia-Relojes-Deportivos">Relojes Deportivos</a></li>
+<li><a href="/auriculares-deportivos" class="GTM-subfamilia-Auriculares-Deportivos">Auriculares Deportivos</a></li>
+<li><a href="/gadgets-salud" class="GTM-subfamilia-Gadgets-Salud">Gadgets Salud</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Juguetes-y-Drones">
+<h5 class="h4">Juguetes y Drones</h5>
+<ul>
+<li><a href="/drones" class="GTM-subfamilia-Drones">Drones</a></li>
+<li><a href="/radiocontrol" class="GTM-subfamilia-Radio-Control">Radio Control</a></li>
+<li><a href="/accesorios-drones" class="GTM-subfamilia-Accesorios-para-Drones">Accesorios para Drones</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Mundo-Friki">
+<h5 class="h4">Mundo Friki</h5>
+<ul>
+<li><a href="/mundo-cine" class="GTM-subfamilia-Mundo-Cine">Mundo Cine</a></li>
+<li><a href="/mundo-series" class="GTM-subfamilia-Mundo-Series">Mundo Series</a></li>
+<li><a href="/mundo-videojuegos" class="GTM-subfamilia-Mundo-Videojuegos">Mundo Videojuegos</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="menu-principal__lista-categoria menu-principal__lista-Robótica">
+<h5 class="h4">Robótica</h5>
+<ul>
+<li><a href="/robotica" class="GTM-subfamilia-Robótica">Robótica</a></li>
+<li><a href="/arduino-componentes" class="GTM-subfamilia-Arduino">Arduino</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Movilidad-Urbana">
+<h5 class="h4">Movilidad Urbana</h5>
+<ul>
+<li><a href="/hoverboards" class="GTM-subfamilia-Hoverboards">Hoverboards</a></li>
+<li><a href="/monociclos" class="GTM-subfamilia-Monociclos">Monociclos</a></li>
+<li><a href="/patinetes" class="GTM-subfamilia-Patinetes">Patinetes</a></li>
+</ul>
+</div>
+<div class="menu-principal__lista-categoria menu-principal__lista-Zona-GoPro">
+<h5 class="h4">Zona GoPro</h5>
+<ul>
+<li><a href="/go-pro" class="GTM-subfamilia-Cámaras-y-Accesorios-GoPro">Cámaras y Accesorios GoPro</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="menu-principal__seccion menu-principal__seccion-anuncios hidden-sm-down">
+<script>
+            googletag.cmd.push(function() {
+                googletag.defineSlot('/60840406/234_120_bajo_menuprincipal', [234, 120], 'div-gpt-ad-1474351733000-0').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+                googletag.enableServices();
+                googletag.pubads().setTargeting('language','es');
+            });
+        </script>
+ 
+<div id='div-gpt-ad-1474351733000-0' style='height:120px; width:234px;'>
+<script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474351733000-0'); });
+            </script>
+</div>
+</div>
+</nav>
+<div id="contenedor-principal" class="contenedor-principal" data-pcc-listen="toggle-menu-principal" data-pcc-class="menu-principal--desplegado" data-pcc-group="menus-desplegables" data-pcc-active="0">
+<div id="navegacion-secundaria" class="navegacion-secundaria hidden-sm-down container-fluid" role="navigation">
+<div class="row">
+<div class="col-xs-12 col-md-12 col-lg-6 col-xl-7 navegacion-secundaria__migas-de-pan">
+<a class="GTM-breadcumb" href="/">Home</a>
+<a class="GTM-breadcumb" href="">Pccom</a>
+</div>
+<div class="hidden-md-down col-lg-6 col-xl-5  text-xs-right p-r-0">
+<div style="display: inline-block;">
+<script>
+                    googletag.cmd.push(function() {
+                        googletag.defineSlot('/60840406/accesos-directos-300x30', [[300, 18], [300, 32], [1, 18]], 'div-gpt-ad-1474612829713-0').addService(googletag.pubads());
+                        googletag.pubads().enableSingleRequest();
+                        googletag.pubads().collapseEmptyDivs();
+                        googletag.enableServices();
+                        googletag.pubads().setTargeting('language','es');
+                    });
+                </script>
+ 
+<div id='div-gpt-ad-1474612829713-0'>
+<script>
+                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1474612829713-0'); });
+                    </script>
+</div>
+</div>
+<div id="lang-selector" class="lang-selector">
+<span class="lang-selector__local">es</span>
+<i class="pccom-icon">+</i>
+<div class="lang-selector__choser">
+<ul>
+<li>
+<a href="https://www.pccomponentes.com/pccom-basic">
+Español </a>
+</li>
+<li>
+<a href="https://www.pccomponentes.pt/pccom-basic">
+Portugués </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="main" class="main" role="main">
+<div id="main" class="main" role="main">
+<div class="container">
+<div class="banda-cabecera texto">
+<h1>
+<img src="https://cdn.pccomponentes.com/img/pccom/pccom-basic.png" alt=""> PCCOM <strong>BASIC</strong>
+</h1>
+<div class="row">
+<div class="col-lg-12">
+<p><span class="hidden-sm-down"></span><strong>PcCom Basic</strong>. Excelente relación <strong>calidad/precio</strong> para este PC con componentes de primeras marcas, la <strong>máxima garantía</strong> y gran rendimiento, ideal para usuarios que buscan un Pc que cumpla con requisitos de trabajo normales. <br><br> Dentro de esta sección encontramos por un lado <strong>ordenadores de sobremesa básicos</strong>, a precios muy <strong>baratos y económicos</strong>, especiales <strong>para tareas de oficina o de hogar</strong> como <strong>ofimática</strong> e internet, y por otro lado, <strong>Mini Pcs y Media centers</strong>, es decir, ordenadores de tamaño reducidos para tareas básicas de reproducción de vídeo, ofimática y similares.<br><br>
+Los PcCom Basic son tu <strong>ordenador doméstico</strong> u <strong>ordenador de oficina</strong> perfecto.
+</p>
+</div>
+</div>
+</div>
+<div class="white-card-movil posicion-relativa">
+<div id="pccom-ids" class="row">
+<div class="col-xs-12 col-md-10">
+<a href="/pccom-basic" class="active">BASIC</a>
+<a href="/pccom-workstation">WORKSTATION</a>
+<a href="/pccom-gaming">GAMING</a>
+</div>
+</div>
+</div> <div class="white-card-movil">
+<div class="row">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="102987"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/msi-cubi-n-021beu-celeron-n3050-4gb-500gb-negro" class="GTM-productClick" data-name="MSI Cubi N-021BEU Celeron N3050/4GB/500GB Negro" data-id="102987" data-price="215" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="1">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/10/102987/msi-cubi-n-021beu-celeron-n3050-4gb-500gb-negro.jpg" alt="MSI Cubi N-021BEU Celeron N3050/4GB/500GB Negro en PcComponentes">
+</a>
+<a href="/msi-cubi-n-021beu-celeron-n3050-4gb-500gb-negro" class="GTM-productClick" data-name="MSI Cubi N-021BEU Celeron N3050/4GB/500GB Negro" data-id="102987" data-price="215" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="1">
+<h4 itemprop="name">
+MSI Cubi N-021BEU Celeron N3050/4GB/500GB Negro
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>G.Skill SO-DIMM DDR3L 1600 PC3-12800 4GB CL11</li>
+<li>Toshiba HDD 500GB 5400RPM SATA3</li>
+<li>MSI Cubi N-021BEU Intel N3050 Negro</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="3.55555" disabled />
+<meta itemprop="ratingValue" content="3.55555"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="18"/>
+<meta itemprop="ratingCount" content="18"/>
+</span>
+<span>(18)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">215</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117345"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-low-cost-intel-celeron-g3900-4gb-500gb" class="GTM-productClick" data-name="PcCom Low Cost Intel Celeron G3900 / 4GB / 500GB" data-id="117345" data-price="215" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="2">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117345/thyra.jpg" alt="PcCom Low Cost Intel Celeron G3900 / 4GB / 500GB en PcComponentes">
+</a>
+<a href="/pccom-low-cost-intel-celeron-g3900-4gb-500gb" class="GTM-productClick" data-name="PcCom Low Cost Intel Celeron G3900 / 4GB / 500GB" data-id="117345" data-price="215" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="2">
+<h4 itemprop="name">
+PcCom Low Cost Intel Celeron G3900 / 4GB / 500GB
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Toshiba DT01ACA050 500GB 7200 SATA 3</li>
+<li>B-Move Thyra</li>
+<li>Intel Celeron G3900 2.8Ghz BOX MONTAJE</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>MSI H110M PRO-D</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="1.83335" disabled />
+<meta itemprop="ratingValue" content="1.83335"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="6"/>
+<meta itemprop="ratingCount" content="6"/>
+</span>
+<span>(6)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">215</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="107979"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-home-g4400-4gb-1tb" class="GTM-productClick" data-name="PcCom Basic Home G4400 / 4GB / 1TB" data-id="107979" data-price="259" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="3">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/10/107979/tooq.jpg" alt="PcCom Basic Home G4400 / 4GB / 1TB en PcComponentes">
+</a>
+<a href="/pccom-basic-home-g4400-4gb-1tb" class="GTM-productClick" data-name="PcCom Basic Home G4400 / 4GB / 1TB" data-id="107979" data-price="259" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="3">
+<h4 itemprop="name">
+PcCom Basic Home G4400 / 4GB / 1TB
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Asus H110M-D</li>
+<li>Intel Pentium G4400 3.3GHz Box MONTAJE</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Seagate Desktop 7200.14 1TB SATA3</li>
+<li>Tooq TQC-4735U3C-B + Fuente de Alimentación 500W</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="3.53335" disabled />
+<meta itemprop="ratingValue" content="3.53335"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="15"/>
+<meta itemprop="ratingCount" content="15"/>
+</span>
+<span>(15)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">259</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="102981"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/msi-cubi-n-020beu-intel-n37004gb120gb-ssd-negro" class="GTM-productClick" data-name="MSI Cubi N-020BEU Intel N3700/4GB/120GB SSD Negro" data-id="102981" data-price="279" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="4">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/10/102981/msi-cubi-n-020beu-intel-n3700-4gb-120gb-ssd-negro.jpg" alt="MSI Cubi N-020BEU Intel N3700/4GB/120GB SSD Negro en PcComponentes">
+</a>
+<a href="/msi-cubi-n-020beu-intel-n37004gb120gb-ssd-negro" class="GTM-productClick" data-name="MSI Cubi N-020BEU Intel N3700/4GB/120GB SSD Negro" data-id="102981" data-price="279" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="4">
+<h4 itemprop="name">
+MSI Cubi N-020BEU Intel N3700/4GB/120GB SSD Negro
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Kingston SSDNow mS200 120GB mSATA</li>
+<li>Kingston ValueRAM SO-DIMM DDR3L 1600 PC3-12800 4GB CL11</li>
+<li>MSI Cubi N-020BEU Intel N3700 Negro</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.2" disabled />
+<meta itemprop="ratingValue" content="4.2"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="15"/>
+<meta itemprop="ratingCount" content="15"/>
+</span>
+<span>(15)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">279</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="107796"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-home-pro-g4400-4gb-1tb-gt710" class="GTM-productClick" data-name="PcCom Basic Home Pro G4400 / 4GB / 1TB / GT710" data-id="107796" data-price="295" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="5">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/10/107796/tooq.jpg" alt="PcCom Basic Home Pro G4400 / 4GB / 1TB / GT710 en PcComponentes">
+</a>
+<a href="/pccom-basic-home-pro-g4400-4gb-1tb-gt710" class="GTM-productClick" data-name="PcCom Basic Home Pro G4400 / 4GB / 1TB / GT710" data-id="107796" data-price="295" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="5">
+<h4 itemprop="name">
+PcCom Basic Home Pro G4400 / 4GB / 1TB / GT710
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Asus H110M-D MONTAJE</li>
+<li>Tooq TQC-4735U3C-B + Fuente de Alimentación 500W</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>WD Blue 1TB SATA3 MONTAJE</li>
+<li>Intel Pentium G4400 3.3GHz Box MONTAJE</li>
+<li>MSI GeForce GT710 2GB DDR3 Low Profile</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.45835" disabled />
+<meta itemprop="ratingValue" content="4.45835"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="24"/>
+<meta itemprop="ratingCount" content="24"/>
+</span>
+<span>(24)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">295</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117221"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-office-i3-6100-4gb-1-tb" class="GTM-productClick" data-name="PcCom Basic Office i3-6100 / 4GB / 1 TB" data-id="117221" data-price="335" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="6">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117221/ow1.jpg" alt="PcCom Basic Office i3-6100 / 4GB / 1 TB en PcComponentes">
+</a>
+<a href="/pccom-basic-office-i3-6100-4gb-1-tb" class="GTM-productClick" data-name="PcCom Basic Office i3-6100 / 4GB / 1 TB" data-id="117221" data-price="335" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="6">
+<h4 itemprop="name">
+PcCom Basic Office i3-6100 / 4GB / 1 TB
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Intel Core i3-6100 3.7GHz Box MONTAJE</li>
+<li>Asus H110M-D MONTAJE</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>WD Blue 1TB SATA3 MONTAJE</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="3.5" disabled />
+<meta itemprop="ratingValue" content="3.5"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="4"/>
+<meta itemprop="ratingCount" content="4"/>
+</span>
+<span>(4)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">335</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117222"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-office-pro-i3-6100-4gb-1tb-ssd-120gb" class="GTM-productClick" data-name="PcCom Basic Office Pro i3-6100 / 4GB / 1TB+SSD-120GB" data-id="117222" data-price="389" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="7">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117222/ow1.jpg" alt="PcCom Basic Office Pro i3-6100 / 4GB / 1TB+SSD-120GB en PcComponentes">
+</a>
+<a href="/pccom-basic-office-pro-i3-6100-4gb-1tb-ssd-120gb" class="GTM-productClick" data-name="PcCom Basic Office Pro i3-6100 / 4GB / 1TB+SSD-120GB" data-id="117222" data-price="389" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="7">
+<h4 itemprop="name">
+PcCom Basic Office Pro i3-6100 / 4GB / 1TB+SSD-120GB
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Cable Alimentación Molex/SATA 15 cm</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Intel Core i3-6100 3.7GHz Box MONTAJE</li>
+<li>Owlotech Cable SATA3 Recto 50cm</li>
+<li>Kingston SSDNow UV400 120GB SATA3</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+<li>WD Blue 1TB SATA3 MONTAJE</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Asus H110M-D MONTAJE</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.3" disabled />
+<meta itemprop="ratingValue" content="4.3"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="10"/>
+<meta itemprop="ratingCount" content="10"/>
+</span>
+<span>(10)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">389</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117714"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-enterprise-i5-6400-4-gb-1-tb" class="GTM-productClick" data-name="PcCom Basic Enterprise i5-6400 / 4 GB / 1 TB" data-id="117714" data-price="409" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="8">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117714/ow1.jpg" alt="PcCom Basic Enterprise i5-6400 / 4 GB / 1 TB en PcComponentes">
+</a>
+<a href="/pccom-basic-enterprise-i5-6400-4-gb-1-tb" class="GTM-productClick" data-name="PcCom Basic Enterprise i5-6400 / 4 GB / 1 TB" data-id="117714" data-price="409" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="8">
+<h4 itemprop="name">
+PcCom Basic Enterprise i5-6400 / 4 GB / 1 TB
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Asus H110M-D</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+<li>Intel Core i5-6400 2.7GHz Box MONTAJE</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Seagate Desktop 7200.14 1TB SATA3</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.75" disabled />
+<meta itemprop="ratingValue" content="4.75"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="4"/>
+<meta itemprop="ratingCount" content="4"/>
+</span>
+<span>(4)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">409</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117724"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-enterprise-plus-i5-6400-4gb-1tb-gt-710" class="GTM-productClick" data-name="PcCom Basic Enterprise Plus i5-6400 / 4GB / 1TB / GT 710" data-id="117724" data-price="455" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="9">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117724/ow1.jpg" alt="PcCom Basic Enterprise Plus i5-6400 / 4GB / 1TB / GT 710 en PcComponentes">
+</a>
+<a href="/pccom-basic-enterprise-plus-i5-6400-4gb-1tb-gt-710" class="GTM-productClick" data-name="PcCom Basic Enterprise Plus i5-6400 / 4GB / 1TB / GT 710" data-id="117724" data-price="455" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="9">
+<h4 itemprop="name">
+PcCom Basic Enterprise Plus i5-6400 / 4GB / 1TB / GT 710
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Intel Core i5-6400 2.7GHz Box MONTAJE</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Asus GeForce 710 Silent 2GB GDDR3</li>
+<li>WD Blue 1TB SATA3 MONTAJE</li>
+<li>MSI H110M PRO-D MONTAJE</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="5" disabled />
+<meta itemprop="ratingValue" content="5"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="2"/>
+<meta itemprop="ratingCount" content="2"/>
+</span>
+<span>(2)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">455</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="89571"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/msi-cubi-011beu-i5-5200u-8gb-120gb-ssd-negro" class="GTM-productClick" data-name="MSI Cubi-011BEU i5-5200U/8GB/120GB SSD Negro" data-id="89571" data-price="499" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="10">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/8/89571/msi-cubi-011beu-negro.jpg" alt="MSI Cubi-011BEU i5-5200U/8GB/120GB SSD Negro en PcComponentes">
+</a>
+<a href="/msi-cubi-011beu-i5-5200u-8gb-120gb-ssd-negro" class="GTM-productClick" data-name="MSI Cubi-011BEU i5-5200U/8GB/120GB SSD Negro" data-id="89571" data-price="499" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="10">
+<h4 itemprop="name">
+MSI Cubi-011BEU i5-5200U/8GB/120GB SSD Negro
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>Kingston ValueRAM SO-DIMM DDR3L 1600 PC3-12800 4GB CL11</li>
+<li>MSI Cubi-011BEU intel i5-5200U Negro</li>
+<li>Kingston SSDNow mS200 120GB mSATA</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.2647" disabled />
+<meta itemprop="ratingValue" content="4.2647"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="17"/>
+<meta itemprop="ratingCount" content="17"/>
+</span>
+<span>(17)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">499</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="117737"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-enterprise-pro-i5-6400-4gb-1tb-ssd-120gb-gt-730" class="GTM-productClick" data-name="PcCom Basic Enterprise Pro i5-6400 / 4GB / 1TB+SSD-120GB / GT 730" data-id="117737" data-price="535" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="11">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/11/117737/ow1.jpg" alt="PcCom Basic Enterprise Pro i5-6400 / 4GB / 1TB+SSD-120GB / GT 730 en PcComponentes">
+</a>
+<a href="/pccom-basic-enterprise-pro-i5-6400-4gb-1tb-ssd-120gb-gt-730" class="GTM-productClick" data-name="PcCom Basic Enterprise Pro i5-6400 / 4GB / 1TB+SSD-120GB / GT 730" data-id="117737" data-price="535" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="11">
+<h4 itemprop="name">
+PcCom Basic Enterprise Pro i5-6400 / 4GB / 1TB+SSD-120GB / GT 730
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>WD Blue 1TB SATA3 MONTAJE</li>
+<li>Asus GeForce GT 730 2GB GDDR5</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 4GB CL15</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+<li>Intel Core i5-6400 2.7GHz Box MONTAJE</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Owlotech Cable SATA3 Recto 50cm</li>
+<li>Kingston SSDNow UV400 120GB SATA3</li>
+<li>Cable Alimentación Molex/SATA 15 cm</li>
+<li>MSI H110M PRO-D MONTAJE</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="5" disabled />
+<meta itemprop="ratingValue" content="5"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="1"/>
+<meta itemprop="ratingCount" content="1"/>
+</span>
+<span>(1)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">535</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<div class="caja-pccom" itemscope itemtype="http://schema.org/Product">
+<meta itemprop="sku" content="109218"/>
+<meta itemprop="brand" content="Varios"/>
+<a href="/pccom-basic-enterprise-ultra-i7-6700-8gb-1-tb-gt-730" class="GTM-productClick" data-name="PcCom Basic Enterprise Ultra i7-6700 / 8GB / 1 TB / GT 730" data-id="109218" data-price="639" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="12">
+<img itemprop="image" class="img-fluid" src="//thumb.pccomponentes.com/w-300-300/articles/10/109218/ow1.jpg" alt="PcCom Basic Enterprise Ultra i7-6700 / 8GB / 1 TB / GT 730 en PcComponentes">
+</a>
+<a href="/pccom-basic-enterprise-ultra-i7-6700-8gb-1-tb-gt-730" class="GTM-productClick" data-name="PcCom Basic Enterprise Ultra i7-6700 / 8GB / 1 TB / GT 730" data-id="109218" data-price="639" data-brand="Varios" data-category="Sobremesa" data-list="PcCOM Basic" data-loop="12">
+<h4 itemprop="name">
+PcCom Basic Enterprise Ultra i7-6700 / 8GB / 1 TB / GT 730
+</h4>
+</a>
+<ul class="caracteristicas">
+<li>MSI B150M Bazooka</li>
+<li>Intel Core i7-6700 3.4GHz Box</li>
+<li>Owlotech EVO USB 3.0 500W</li>
+<li>Seagate Desktop 7200.14 1TB SATA3</li>
+<li>G.Skill Aegis DDR4 2133 PC4-17000 8GB CL15</li>
+<li>Asus DRW-24D5MT Grabadora DVD 24X Negra</li>
+<li>Asus GeForce GT 730 2GB GDDR5</li>
+</ul>
+<div class="rating-holder p-a-1 grey">
+<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" class="rating-holder">
+<input class="rating-input" type="number" data-size="xs" value="4.16665" disabled />
+<meta itemprop="ratingValue" content="4.16665"/>
+<meta itemprop="bestRating" content="5"/>
+<meta itemprop="reviewCount" content="24"/>
+<meta itemprop="ratingCount" content="24"/>
+</span>
+<span>(24)</span>
+<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="precio pull-xs-right">
+<span itemprop="price">639</span><small>€</small>
+<meta itemprop="priceCurrency" content="EUR">
+<meta itemprop="availability" content="in stock">
+</span>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+<div id="helpPopsUpTrigger"><span><b>?</b></span></div>
+<div id="helpPopsUp">
+<div class="top ">
+<div id="defaultHelp">
+<h6 class="text-white h3">¿NECESITAS AYUDA?</h6>
+<div class="input-holder row">
+<input id="helpPopsUpSearchInput" type="text" placeholder="Escribe tu consulta...">
+<i class="pccom-icon">&nbsp;</i>
+</div>
+<a id="GTM-popUpSoporte-visitarsoporte" class="text-white" href="/soporte">Centro de soporte</a>
+</div>
+<div id="teLlamamosForm"></div>
+</div>
+<div id="helpPopsUpResults" class="results">
+<div id="helpPopsUpResultsContent"></div>
+</div>
+<div id="ticketBtnHolder" class="btn-holder">
+<a id="GTM-popUpSoporte-escribirticket" class="btn btn-primary btn-lg block"><i class="pccom-icon">F</i>Escribir ticket</a>
+</div>
+<div id="helpPopsUpClose" class="close"><i class="pccom-icon">0</i></div>
+</div> <footer id="pie-principal" class="pie-de-pagina pie-principal menu-principal--desplegad" data-pcc-listen="toggle-menu-principal" data-pcc-class="menu-principal--desplegado" data-pcc-group="menus-desplegables" data-pcc-active="0">
+<div class="container-fluid">
+<div class="container">
+<div class="row">
+<div id="newsletter-footer" class="col-lg-3 col-md-12 pull-lg-right col-pie">
+<div class="titulo m-y-1">
+OFERTAS Y NOVEDADES </div>
+<form name="Promotionsbulletin" method="post" action="/subscriptions/bulletin" id="bulletinForm">
+<div class="micro-formulario micro-formulario--tipo-suscripcion">
+<input type="email" id="Promotionsbulletin_email" name="Promotionsbulletin[email]" required="required" placeholder="Introduce tu email" class="form-control">
+<div class="micro-formulario__btn">
+<button type="submit" id="Promotionsbulletin_Enviar" name="Promotionsbulletin[Enviar]" class="btn-default btn">Enviar</button>
+</div>
+</div>
+<label class="c-input c-checkbox">
+<input type="checkbox" id="checklopd">
+<span class="c-indicator"></span>
+He leído y acepto la </label>
+<a href="#" data-toggle="modal" data-target="#lopdmodal" rel="nofollow">política de la LOPD</a>
+<input type="hidden" id="Promotionsbulletin__token" name="Promotionsbulletin[_token]" class="form-control" value="cVsJK3bWRaaL9XgWQfkZ3MBXfAbYLVVJmWgklfPLHH4">
+</form>
+<p><small>Recibe información exclusiva sobre ofertas y promociones.</small></p>
+</div>
+<div class="col-lg-2 col-md-3 col-pie">
+<div class="titulo m-y-1 md" data-pcc-trigger="toggle-f-comprar" data-pcc-event="click" data-pcc-group="menus-footer">
+<span class="left">POR QUÉ COMPRAR</span>
+<span id="f-comprar" class="hidden-md-up right" data-pcc-listen="toggle-f-comprar" data-pcc-group="menus-footer" data-pcc-class="visible">
++
+</span>
+</div>
+<ul id="ul-f-comprar" class="enlaces" data-pcc-listen="toggle-f-comprar" data-pcc-class="visible" data-pcc-group="menus-footer">
+<li>
+<a class="enlace-en-footer" href="/como-comprar" rel="nofollow">Cómo comprar</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/soporte/formas-de-pago" rel="nofollow">Formas de pago</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/gastos-de-envio" rel="nofollow">Gastos de envío</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/soporte/" rel="nofollow">Preguntas frecuentes</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/opiniones">Opiniones de clientes</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/ultimos-comentarios">Últimos comentarios</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/programa-de-puntos">Club PcComponentes</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-pie">
+<div class="titulo m-y-1 md" data-pcc-trigger="toggle-f-somos" data-pcc-event="click" data-pcc-group="menus-footer">
+<span class="left">QUIÉNES SOMOS</span>
+<span id="f-quienes" class="hidden-md-up right" data-pcc-listen="toggle-f-somos" data-pcc-group="menus-footer" data-pcc-class="visible">
++
+</span>
+</div>
+<ul id="ul-f-quienes" class="enlaces" data-pcc-listen="toggle-f-somos" data-pcc-class="visible" data-pcc-group="menus-footer">
+<li>
+<a class="enlace-en-footer" href="/quienes-somos" rel="nofollow">Quiénes somos</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/tienda-fisica" rel="nofollow">Nuestra tienda</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/condiciones-de-compra" rel="nofollow">Condiciones de compra</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/fabricantes">Fabricantes</a>
+</li>
+<li>
+<a href="http://afiliados.pccomponentes.com/index.html">Afiliados</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/aviso-legal" rel="nofollow">Aviso legal</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/privacidad" rel="nofollow">Privacidad</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-pie">
+<div class="titulo m-y-1 md" data-pcc-trigger="toggle-f-contactar" data-pcc-event="click" data-pcc-group="menus-footer">
+<span class="left">CONTACTAR</span>
+<span id="f-contactar" class="hidden-md-up right" data-pcc-listen="toggle-f-contactar" data-pcc-group="menus-footer" data-pcc-class="visible">
++
+</span>
+</div>
+<ul id="ul-f-contactar" class="enlaces" data-pcc-listen="toggle-f-contactar" data-pcc-class="visible" data-pcc-group="menus-footer">
+<li>
+<a class="enlace-en-footer" href="/soporte/" rel="nofollow">Centro de soporte</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/soporte/quiero-hacer-una-devolucion" rel="nofollow">Devoluciones</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/soporte/garantia" rel="nofollow">Garantías</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/tu-opinion-tiene-premio" rel="nofollow">Opina y Gana</a>
+</li>
+<li><a class="enlace-en-footer" href="/publicidad">Publicidad</a></li>
+<li>
+<a class="enlace-en-footer" href="/trabaja-con-nosotros" rel="nofollow">Trabaja con nosotros</a>
+</li>
+<li>
+<a class="enlace-en-footer" href="/cookies" rel="nofollow">Política de cookies</a>
+</li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-3 col-pie">
+<div class="titulo m-y-1 md" data-pcc-trigger="toggle-f-otros" data-pcc-event="click" data-pcc-group="menus-footer">
+<span class="left">OTROS</span>
+<span id="f-otros" class="hidden-md-up right" data-pcc-listen="toggle-f-otros" data-pcc-group="menus-footer" data-pcc-class="visible">
++
+</span>
+</div>
+<ul id="ul-f-otros" class="enlaces" data-pcc-listen="toggle-f-otros" data-pcc-class="visible" data-pcc-group="menus-footer">
+<li><a class="enlace-en-footer" href="/outlet/">Outlet</a></li>
+<li><a class="enlace-en-footer" href="https://www.youtube.com/watch?v=b3FfkVE90sY" title="experiencias pccomponentes">50 Experiencias por un cambio</a></li>
+<li><a class="enlace-en-footer" href="/ipad">iPad</a></li>
+<li><a class="enlace-en-footer" href="/realidad-virtual">Realidad virtual</a></li>
+<li><a class="enlace-en-footer" href="/tecnologia-asus-gaming">Powered by Asus</a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<hr>
+</div>
+<div class="row m-b-1">
+<div class="col-lg-2 col-xs-6 premio">
+<img src="https://cdn.pccomponentes.com/img/footer/premio2015.png" alt="#" class="img-fluid">
+</div>
+<div class="col-lg-2 col-xs-6 premio">
+<img src="https://cdn.pccomponentes.com/img/footer/premio2014.png" alt="#" class="img-fluid">
+</div>
+<div class="col-lg-2 col-xs-6 premio">
+<img src="https://cdn.pccomponentes.com/img/footer/premioComercio.png" alt="#" class="img-fluid">
+</div>
+<div class="col-lg-2 col-xs-6 premio">
+<img src="https://cdn.pccomponentes.com/img/footer/footer-cecarm.png" alt="#" class="img-fluid">
+</div>
+<div class="col-lg-4 col-xs-12 pull-lg-right rrss m-y-1 text-lg-right text-xs-left">
+<a id="GTM-footerRRSS-facebook" href="https://www.facebook.com/pccomponentes" target="_blank">
+<i class="pccom-icon">'</i>
+</a>
+<a id="GTM-footerRRSS-twitter" href="https://twitter.com/pccomponentes" target="_blank">
+<i class="pccom-icon">&</i>
+</a>
+<a id="GTM-footerRRSS-googleplus" href="https://plus.google.com/100663518842366346937/posts" target="_blank">
+<i class="pccom-icon">(</i>
+</a>
+<a id="GTM-footerRRSS-instagram" href="https://www.instagram.com/pccomponentes/" target="_blank">
+<i class="pccom-icon">%</i>
+</a>
+<a id="GTM-footerRRSS-youtube" href="http://www.youtube.com/user/PcComponentescom" target="_blank">
+<i class="pccom-icon">)</i>
+</a>
+<a id="GTM-footerRRSS-blog" href="http://mundo.pccomponentes.com/" target="_blank">
+<i class="pccom-icon">*</i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="superpie" class="container-fluid">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-xs-12">
+<p itemscope itemtype="http://schema.org/LocalBusiness" class="m-t-1"><span itemprop="name">PC COMPONENTES Y MULTIMEDIA SLU</span>, CIF B73347494.
+<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress"> AVDA Europa, Parcela 2-5 y 2-6. Polígono industrial Las Salinas</span>
+, <span itemprop="postalCode">30840</span>, <span itemprop="addressLocality">Alhama de Murcia</span>,
+<span itemprop="addressRegion"> Murcia.</span></span><meta itemprop="image" content="https://cdn.pccomponentes.com/img/rrss/general.png"><meta itemprop="priceRange" content="€€€"></p>
+</div>
+<div class="col-lg-3 col-xs-12 text-xs-right">
+<img src="https://cdn.pccomponentes.com/img/footer/pay_visa.png" alt="visa">
+<img src="https://cdn.pccomponentes.com/img/footer/pay_paypal.png" alt="paypal">
+<img src="https://cdn.pccomponentes.com/img/footer/pay_maestro.png" alt="maestro">
+<img src="https://cdn.pccomponentes.com/img/footer/pay_mastercard.png" alt="mastercard">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div id="popUpsLaterales"></div>
+<div class="notificacion-cookies" style="display: none">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-10">
+<p class="m-b-0">
+Las cookies de este sitio se usan para personalizar el contenido y los anuncios, para ofrecer funciones de medios sociales y para analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de medios sociales, de publicidad y de análisis web.
+<a href="/cookies">Ver detalles</a>.</p>
+</div>
+<div class="col-xs-12 col-md-2">
+<button class="btn btn-block btn-secondary m-t-1 accept-cookie">ACEPTAR</button>
+</div>
+</div>
+</div>
+</div>
+<div id="volver-arriba" style="display: block;"><i class="pccom-icon">,</i></div>
+ 
+<div class="modal fade in" id="lopdmodal" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">x</button>
+<h4 class="modal-title">Política LOPD</h4>
+</div>
+<div class="modal-body">
+<div class="container">
+<div class="window_lopd" style="width: auto;">
+<div class="cabecera_lopd">
+<a id="subir"></a> </div><br>
+<h3>Aviso Legal y Política de Privacidad</h3>
+<div class="caja-informacion3">
+<p>
+En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos:
+<br>
+<br>
+<strong>PC COMPONENTES Y MULTIMEDIA S.L</strong> (en adelante, <strong>PC COMPONENTES</strong>) es una empresa dedicada a la Tienda de Informática Online.
+<strong>PC COMPONENTES</strong> se encuentra inscrita en el Registro Mercantil de Murcia, Tomo 2236, Libro 0, folio 52, hoja MU-52949, inscripción 4. <br>
+<br>
+<strong>PC COMPONENTES</strong> con NIF B73347494, es una sociedad domiciliada a los efectos de la presente información en la<strong> Avda. Europa, Parcela 2-3 Pol.Ind. Las Salinas, 30840 Alhama de Murcia</strong>, y es en la actualidad la encargada de la explotación, gestión y funcionamiento del sitio web www.pccomponentes.com . Otros datos de contacto que ponemos a su disposición: Correo electrónico:<a href="mailto:lopd@pccomponentes.com">lopd@pccomponentes.com</a> Los servicios que el usuario puede adquirir a través de la Web <strong>www.pccomponentes.com</strong> son productos de informática y servicios especializados en post-venta. Todos los precios son con IVA incluido. <br>
+<br>
+En el cado de llevar incluido un descuento será indicado en cada uno de los productos.
+<br>
+<br>
+<strong>PC COMPONENTES</strong> se reserva la facultad de modificar y sin previo aviso esta Política de Privacidad para mantenerla adaptada a la legislación vigente sobre protección de datos. En tales casos, anunciará en este sitio Web los cambios introducidos con el fin de que puedan ser conocidas por el usuario.
+</p>
+</div>
+<div class="window_lopd_navegacion">
+<h3>Índice de navegación</h3>
+<ol>
+<li><a href="#Propiedad_intelectual">Propiedad intelectual e industrial</a></li>
+<li><a href="#Cookies">Empleo de cookies</a></li>
+<li><a href="#Proteccion_datos">Protección de datos</a>
+<ol>
+<li><a href="#Info_users">Información a los usuarios</a></li>
+<li><a href="#Consentimiento">Consentimiento</a></li>
+<li><a href="#Derecho_interesados">Derecho de los interesados</a></li>
+<li><a href="#Calidad_datos">Calidad de los datos</a></li>
+<li><a href="#Proteccion_menores">Protección de los menores</a></li>
+</ol>
+</li>
+<li><a href="#Redes_sociales">Redes sociales</a></li>
+<li><a href="#Autorizacion">Autorización</a></li>
+</ol>
+</div>
+<h3><a id="Propiedad_intelectual"></a>1. Propiedad intelectual e industrial</h3>
+<ol>
+<li>Todos los signos distintivos, marcas, nombres comerciales, contenidos, estructura, diseño y forma de presentación de los elementos y cualquier otra información que aparezca en este sitio Web son propiedad de <strong>PC COMPONENTES</strong> y están protegidos por los derechos de propiedad industrial e intelectual.<br>
+<br>
+</li>
+<li>El usuario tiene prohibida la reproducción, transformación, distribución, comunicación pública y, en general cualquier otra forma de explotación de los elementos referidos en el apartado anterior sin autorización expresa de<strong> PC COMPONENTES</strong>.<br>
+<br>
+</li>
+<li>EL usuario se abstendrá de emplear medios que puedan suprimir, alterar, eludir o manipular cualesquiera dispositivos de protección o sistemas de seguridad que puedan estar instalados y que comporten un riesgo o daño o inutilización del sitio Web y/o sus contenidos.<br>
+<br>
+</li>
+<li><strong>PC COMPONENTES</strong> no se responsabiliza del posible uso inapropiado que terceros realicen de esta página Web, ni de la información que a través de ella transmitan a terceros.<br>
+<br>
+Los contenidos proporcionados a través de esta página web tienen carácter meramente informativo, por lo que el uso que de estos pueda hacer el usuario y las eventuales consecuencias, daños o perjuicios que pudiesen derivarse, son de la exclusiva responsabilidad del usuario.<br>
+<br>
+<strong>PC COMPONENTES</strong> se excluye por los daños y perjuicios de toda naturaleza causados a los usuarios por el uso de enlaces (links), directorios y herramientas de búsqueda, que permiten a los usuarios acceder a sitios Web pertenecientes y/o gestionados por terceros así como de la presencia de virus u otros códigos maliciosos en los contenidos que puedan producir cualquier tipo de daños en el sistema informático, documentos electrónicos o ficheros de los usuarios.<br>
+<br>
+<strong>PC COMPONENTES</strong> se reserva el derecho de ejercitar las acciones legales que considere oportunas derivadas de cualesquiera usos ilícitos por parte de terceros de los contenidos de su página web.</li>
+</ol>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Cookies"></a>2. Empleo de cookies</h3>
+<p>Las cookies son pequeños ficheros de datos o conjunto de caracteres que se almacenan en el disco duro o en la memoria temporal del ordenador del usuario cuando accede a las páginas de determinados sitios Web. Se utilizan para que el servidor accedido pueda conocer las preferencias del usuario al volver éste a conectarse.<br>
+<br>
+El acceso a este sitio Web puede implicar la utilización de cookies, que tendrán por finalidad el facilitar el proceso de compra online de los productos o servicios ofertados, y servir la publicidad o determinados contenidos o informaciones jurídicas de interés para el usuario. Las cookies utilizadas no pueden leer los archivos cookie creados por otros proveedores. El usuario tiene la posibilidad de configurar su navegador para ser avisado en pantalla de la recepción de cookies y para impedir la instalación de cookies en su disco duro.<br>
+<br>
+Para ello, el usuario debe consultar las instrucciones y manuales de su navegador para ampliar esta información. Ninguna cookie permite extraer información del disco duro del usuario o acceder a información personal. Simplemente asocian el navegador de un ordenador determinado a un código anónimo. La única manera de que la información privada de un usuario forme parte de un archivo cookie, es que el usuario dé personalmente esa información al servidor.</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Proteccion_datos"></a>3. Protección de datos</h3>
+<p>La visita a este sitio Web no implica que el usuario esté obligado a facilitar ninguna información sobre el mismo. En el caso de que el usuario facilite alguna información de carácter personal, los datos recogidos en este sitio Web serán tratados de forma leal y lícita con sujeción en todo momento a los principios y derechos recogidos en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), y demás normativa de desarrollo.<br><br>
+En este caso, nos vemos en la obligación de informarles de una serie de extremos concernientes a los datos personales que PC COMPONENTES recoge a través de su página web.</p>
+<h3><a id="Info_users"></a>3.1 Información a los usuarios</h3>
+<p>
+<strong>- Apartado Nuevo Cliente</strong>
+<br>
+<br>
+De acuerdo a la<strong> Ley Orgánica 15/1999 de 13 de Diciembre, de Protección de Datos de Carácter Personal (LOPDP)</strong>, le informamos que mediante la cumplimentación de los formularios, sus datos personales quedarán incorporados y serán tratados en ficheros de <strong>PC COMPONENTES Y MULTIMEDIA S.L ( en adelante, PC COMPONENTES)</strong>.<br>
+<br>
+La principal finalidad de dicho fichero es la gestión de los usuarios registrados en nuestra web, así como el envío de publicidad relativa a los productos y servicios comercializados por <strong>PC COMPONENTES</strong> o para el envío de publicidad, descuentos y promociones de productos y servicios de otras entidades. Si no desea recibir este tipo de publicidad deberá marcar la casilla que aparece en el formulario.<strong>PC COMPONENTES</strong> asegura la confidencialidad de los datos aportados y garantiza que, en ningún caso, serán cedidos para ningún otro uso sin mediar consentimiento previo y expreso de nuestros usuarios.<br>
+<br>
+Sólo le pediremos aquellos datos necesarios para la prestación del servicio requerido y únicamente serán empleados para este fin.<br>
+<br>
+<strong>- Apartado Realizar compra</strong><br>
+<br>
+De acuerdo a la Ley Orgánica 15/1999 de 13 de Diciembre, de <strong>Protección de Datos de Carácter Personal (LOPD)</strong>, le informamos que mediante la cumplimentación de los formularios, sus datos personales quedarán incorporados y serán tratados en ficheros de <strong>PC Componentes y Multimedia S.L. </strong>( en adelante, <strong>PC COMPONENTES</strong>).<br>
+<br>
+La principal finalidad de dicho fichero es mantener la relación contractual con nuestros clientes, facilitar la tramitación de los pedidos, la realización de estudios estadísticos, así como el envío de publicidad relativa a los productos y servicios comercializados por <strong>PC Componentes y Multimedia S.L</strong> o para el envío de publicidad, descuentos y promociones de productos y servicios de otras entidades. Con motivo de la compra sus datos pueden ser comunicados a los siguientes destinatarios:<br>
+<br>
+Entidades bancarias para el pago las compras mediante tarjeta.
+A la Oficina de consumidores y usuarios en caso de existir alguna reclamación.
+A los fabricantes, Servicios técnicos y/o mayoristas en el caso de garantías o reparaciones. Estos destinatarios pueden estar ubicados dentro del territorio Español como en fuera del mismo, en función del producto y/o servicio adquirido.
+En los supuestos legalmente establecidos, como es el caso de las Fuerzas y Cuerpos de Seguridad.
+<br>
+<br>
+<strong>PC Componentes y Multimedia S.L.</strong> asegura la confidencialidad de los datos aportados y garantiza que, en ningún caso, serán cedidos para ningún otro uso sin mediar consentimiento previo y expreso de nuestros clientes. Sólo le pediremos aquellos datos necesarios para la prestación del servicio requerido y únicamente serán empleados para este fin.<br>
+<br>
+<strong>- Apartado &quot;Boletín Ofertas&quot;</strong>
+<br>
+<br>
+De conformidad con lo dispuesto en la <strong>Ley Orgánica 15/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal</strong>, le informamos que el email facilitado será incorporado en un fichero titularidad de <strong>PC COMPONENTES Y MULTIMEDIA S.L (en adelante, PC COMPONENTES)</strong> con la finalidad de enviar el boletín de ofertas. Este Boletín tiene carácter exclusivamente informativo.
+Los datos personales son empleados por PC COMPONENTES de acuerdo con las exigencias de la <strong>Ley 15/1999, de 13 de Diciembre</strong>, de protección de datos de carácter personal.<br>
+<br>
+<strong>- Apartado Formulario de Contacto y Centro de Soporte de PC COMPONENTES</strong>
+<br>
+<br>
+De conformidad con lo dispuesto en la <strong>Ley Orgánica 15/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal</strong>, le informamos que el email facilitado será incorporado en un fichero titularidad de <strong>PC COMPONENTES Y MULTIMEDIA S.L (en adelante, PC COMPONENTES)</strong> con la finalidad de gestionar el centro de soporte de <strong>PC COMPONENTES</strong> y el contacto con el cliente vía ticket.<br>
+<br>
+<strong>USO DE LOS TICKETS</strong>
+<br>
+<br>
+Cada usuario puede acceder a sus tickets mediante usuario y contraseña. Las contraseñas son personales e intransferibles y El usuario es responsable del uso de sus contraseñas y de su comunicación a terceros. La información que contiene los tickets es de carácter confidencial. <strong>PC COMPONENTES</strong> prohíbe la publicación de los tickets a terceros y de su divulgación en foros, redes sociales y cualquier sitio web.<br>
+<br>
+<strong>- Apartado Formulario RMA</strong>
+<br>
+<br>
+De acuerdo a la <strong>Ley Orgánica 15/1999 de 13 de Diciembre</strong>, de <strong>Protección de Datos de Carácter Personal (LOPDP)</strong>, le informamos que mediante la cumplimentación del formularios, sus datos personales quedarán incorporados y serán tratados en ficheros de <strong>PC COMPONENTES Y MULTIMEDIA S.L</strong> ( en adelante, <strong>PC COMPONENTES</strong>).
+La principal finalidad de dicho fichero es la gestión del RMA (Uso de garantía de su producto). Sus datos pueden ser comunicados a los fabricantes en el supuesto de productos averiados o defectuosos.
+</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Consentimiento"></a>3.2 Consentimiento</h3>
+<p>
+Mediante el envío de los formularios entendemos que el usuario presta su consentimiento para que se traten los datos conforme las finalidades previstas en cada uno de los formularios. <strong>PC COMPONENTES</strong> no comunicará los datos a terceros salvo en los supuestos legalmente establecidos o autorizados por el interesado.<br>
+<br>
+<strong>PC COMPONENTES</strong> comunica a los titulares de los datos su intención de enviarles comunicaciones comerciales por correo electrónico o por cualquier otro medio de comunicación electrónica equivalente. Asimismo, los titulares manifiestan conocer esta intención y prestan su consentimiento expreso para la recepción de las mencionadas comunicaciones. El consentimiento aquí prestado por el Titular para comunicación de datos a terceros tiene carácter revocable en todo momento, sin efectos retroactivos.
+</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Derecho_interesados"></a>3.3 Derecho de los interesados</h3>
+<p>El interesado puede ejercitar sus derechos <strong>ARCO (acceso, rectificación, cancelación y oposición)</strong> en relación con sus datos personales dirigiéndose por escrito y adjuntando fotocopia del DNI a la dirección<strong> Av. Europa Parcela 2-3, Pol. Ind. Las Salinas 30840 Alhama de Murcia</strong> o a través de nuestro formulario.<strong> PC COMPONENTES</strong> tiene a su disposición modelos mediante los cuales puede ejercitar los derechos<strong> ARCO</strong>.
+</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Calidad_datos"></a>3.4 Calidad de los datos</h3>
+<p>Los usuarios deberán garantizar la veracidad, exactitud, autenticidad y vigencia de los datos de carácter personal que les hayan sido recogidos como consecuencia de la correspondiente reserva.
+</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Proteccion_menores"></a>3.5 Protección de los menores</h3>
+<p>No recogemos datos personales de menores. Es responsabilidad del padre/madre/tutor legal velar por para la privacidad de los menores, haciendo todo lo posible para asegurar que han autorizado la recogida y el uso de los datos personales del menor.
+</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Redes_sociales"></a>4. Redes sociales</h3>
+<p>A través de nuestra página web puede acceder a las redes sociales<strong> Facebook, Twitter y Youtube </strong>de acceso abierto a todos los usuarios. Se trata de sitios web donde el usuario puede registrase y seguirnos gratuitamente. En estas redes sociales los usuarios podrán conocer de nuestras actividades, opiniones, acceder a las fotos y videos.<br>
+<br>
+Los usuarios de estas redes sociales deben ser conscientes de que este lugar es independiente de la web pccomponentes.com y está abierto, es decir, es visible para todos sus usuarios, y las políticas de privacidad a aplicar a estos contenidos son las fijadas por <strong>Facebook, Twitter y Youtube</strong>. <strong>PC COMPONENTES</strong> no es titular de las redes sociales.</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div><br>
+<h3><a id="Autorizacion"></a>5. Autorización</h3>
+<p>Aceptar estas condiciones implica que usted tiene autorización para dar de alta los datos de facturación que nos facilite y que tiene también autorización para poder realizar pedidos y facturarlos a dichos datos. Usted se hace responsable del buen fin de todas las operaciones contratadas a través de esta cuenta.</p>
+<div class="subir"><a href="#subir">Ir arriba</a></div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+</div>
+</div>
+</div>
+</div> 
+<div class="modal fade in" id="modalpcc" role="dialog">
+<div class="modal-dialog modal-md">
+<div class="modal-content">
+<div class="modal-body">
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div> 
+<div class="modal fade in" id="modalpcc-small" role="dialog">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-body">
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div><div id="ajax-loadin-container" class="hidden-xs-up">
+<div id="ajax-loading" class="row">
+<div class="overlay-spin">
+<div class="spinner">
+<div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://cdn.pccomponentes.com/js/jquery-1.9.1.min.js"></script>
+<script src="https://cdn.pccomponentes.com/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.pccomponentes.com/js/star-rating.js"></script>
+<script src="/bundles/pccweb/js/pcc.core.js?t=12346"></script>
+<script src="/bundles/pccweb/js/common/pcc-state-buttons.js"></script>
+<script src="/bundles/fosjsrouting/js/router.js"></script>
+<script src="/bundles/fosjsrouting/js/i18n/es/fos_js_routes.js"></script>
+<script src="/bundles/pccweb/js/common/pcc-ajax-loading.js"></script>
+<script src="/bundles/pccweb/js/article/list/common/pcc-stars.js"></script>
+<script src="/bundles/pccweb/js/article/list/mini-search.js?t=12345"></script>
+<script src="/bundles/pccweb/js/validator/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/bundles/pccweb/js/validator/additional-methods.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/bundles/pccweb/js/validator/messages_es.js" type="text/javascript" charset="utf-8"></script>
+<script src="/bundles/pccweb/js/common/pcc-subscription.js"></script>
+<script src="/bundles/pccweb/js/innoDev/inno-dev-main.js" type="text/javascript" charset="utf-8"></script>
+<script src="/bundles/pccweb/js/common/jquery.cookie.js"></script>
+<script src="/bundles/pccweb/js/common/pcc-user-id.js?t=2324adfdasf"></script>
+<script src="/bundles/pccweb/js/common/pcc-lang-modal.js"></script>
+<script src="/bundles/pccweb/js/common/pcc-scroll-top.js"></script>
+<script>
+        var $document = $(document);
+        $(window).load(function() {
+                        $document.on('click','.GTM-productClick',function () {
+                window.dataLayer = window.dataLayer || [];
+                dataLayer.push({
+                    'event': 'productClick',
+                    'ecommerce': {
+                        'click': {
+                            'actionField': {'list': $(this).data("list")},      // Optional list property.
+                            'products': [{
+                                'name': $(this).data('name'),                  // Name or ID is required.
+                                'id': $(this).data('id'),
+                                'price': $(this).data('price'),
+                                'brand': $(this).data('brand'),
+                                'category': $(this).data('category'),
+                                'position': $(this).data('loop')
+                            }]
+                        }
+                    }
+                });
+            })
+                        $document.on('click','.GTM-addToCart',function () {
+                window.dataLayer = window.dataLayer || [];
+                dataLayer.push({
+                    'event': 'addToCart',
+                    'ecommerce': {
+                        'currencyCode': 'EUR',
+                        'add': {
+                            'products': [{
+                                'name': $(this).data('name'),                  // Name or ID is required.
+                                'id': $(this).data('id'),
+                                'price': $(this).data('price'),
+                                'brand': $(this).data('brand'),
+                                'category': $(this).data('category'),
+                                'quantity':  parseInt($(this).data('qty'))
+                            }]
+                        }
+                    }
+                });
+            })
+                        $document.on('click','.GTM-removeFromCart',function () {
+                window.dataLayer = window.dataLayer || [];
+                dataLayer.push({
+                    'event': 'removeFromCart',
+                    'ecommerce': {
+                        'currencyCode': 'EUR',
+                        'remove': {
+                            'products': [{
+                                'name': $(this).data('name'),                  // Name or ID is required.
+                                'id': $(this).data('id'),
+                                'price': $(this).data('price'),
+                                'brand': $(this).data('brand'),
+                                'category': $(this).data('category'),
+                                'quantity': parseInt($(this).data('qty'))
+                            }]
+                        }
+                    }
+                });
+            })
+
+            var $contenedorBuscadorPrincipal = $( ".contenedor-buscador-principal" );
+            var $query = $('#query');
+            $( ".activador-buscador" ).click(function() {
+                var $this = $(this);
+                $contenedorBuscadorPrincipal.toggle();
+                if(!$this.hasClass('buscador-principal__cierre')) {
+                    $query.trigger('focus');
+                }
+            });
+
+            var $notificacionCookies = $('.notificacion-cookies');
+            if ($.cookie("acept_cookie") != 1) {
+                var i = 0;
+                $notificacionCookies.show();
+
+                $(window).scroll(function(event) {
+                    i++;
+                    if (i > 1) {
+                        $.cookie("acept_cookie", 1, {expires: 100});
+                        $notificacionCookies.hide('slow');
+                    }
+                });
+                $('.accept-cookie').click(function() {
+                    $.cookie("acept_cookie", 1, {expires: 100});
+                    $notificacionCookies.hide('slow');
+                });
+            }
+
+            if ($.cookie("magicacceded") == 1) {
+                generateNotification("magic","");
+                $.cookie("magicacceded",0,{expires: 100});
+            }
+        });
+
+</script>
+<script type='text/javascript'>
+    /*var doofinder_script = '//cdn.doofinder.com/media/js/doofinder-classic.latest.min.js';(function(d,t){var f=d.createElement(t),s=d.getElementsByTagName(t)[0];f.async=1;f.src=('https:'==location.protocol?'https:':'http:')+doofinder_script;f.setAttribute('charset','utf-8');s.parentNode.insertBefore(f,s)}(document,'script'));
+        var dfClassicLayers = [{
+         "queryInput": "#query2",
+         "display": {
+           "align": "center",
+           "dtop": 24,
+           "width": "100%",
+           "facets": {
+             "attached": "left",
+             "width": "300px"
+           },
+           "lang": "es"
+         },
+         "zone": "eu1",
+         "hashid": "e10c9368a724be9860d95855090aadc3"
+        }];*/
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://pccomponentes.com/",
+      "dateModified": "2016-11-16T00:00",
+      "image": "https://cdn.pccomponentes.com/img/rrss/general.png",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.pccomponentes.com/buscar/?query={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+</script>
+<script>
+    (function(){
+        var d = window.location.hostname.replace ("www.","");
+        if (d !== 'localhost') {
+            var fl = function (u) {
+                var l = document.createElement('script'); l.type = 'text/javascript'; l.async = true; l.src = u;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(l, s);
+            }
+            fl ("https://files2.vtcdn.net/" + d  + "/loader.min.js");
+            window._vteq = window._vteq || [];
+            setTimeout(function(){if (!window._vtsdk) fl ('https://storage.googleapis.com/cdn2.vibetrace.com/' + d  + '/loader.js');}, 1100);
+        }
+    })();
+</script>
+<script>
+        $(function() { PccStars.load(); });
+    </script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'event': 'impressionsPushed',
+            'ecommerce': {
+                'currencyCode': 'EUR',           // Local currency is optional.
+                'impressions': [
+                                        {
+                        'name': 'MSI Cubi N-021BEU Celeron N3050/4GB/500GB Negro',       // Name or ID is required.
+                        'id': '102987',
+                        'price': 215,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 1
+                    },
+                                        {
+                        'name': 'PcCom Low Cost Intel Celeron G3900 / 4GB / 500GB',       // Name or ID is required.
+                        'id': '117345',
+                        'price': 215,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 2
+                    },
+                                        {
+                        'name': 'PcCom Basic Home G4400 / 4GB / 1TB',       // Name or ID is required.
+                        'id': '107979',
+                        'price': 259,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 3
+                    },
+                                        {
+                        'name': 'MSI Cubi N-020BEU Intel N3700/4GB/120GB SSD Negro',       // Name or ID is required.
+                        'id': '102981',
+                        'price': 279,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 4
+                    },
+                                        {
+                        'name': 'PcCom Basic Home Pro G4400 / 4GB / 1TB / GT710',       // Name or ID is required.
+                        'id': '107796',
+                        'price': 295,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 5
+                    },
+                                        {
+                        'name': 'PcCom Basic Office i3-6100 / 4GB / 1 TB',       // Name or ID is required.
+                        'id': '117221',
+                        'price': 335,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 6
+                    },
+                                        {
+                        'name': 'PcCom Basic Office Pro i3-6100 / 4GB / 1TB+SSD-120GB',       // Name or ID is required.
+                        'id': '117222',
+                        'price': 389,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 7
+                    },
+                                        {
+                        'name': 'PcCom Basic Enterprise i5-6400 / 4 GB / 1 TB',       // Name or ID is required.
+                        'id': '117714',
+                        'price': 409,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 8
+                    },
+                                        {
+                        'name': 'PcCom Basic Enterprise Plus i5-6400 / 4GB / 1TB / GT 710',       // Name or ID is required.
+                        'id': '117724',
+                        'price': 455,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 9
+                    },
+                                        {
+                        'name': 'MSI Cubi-011BEU i5-5200U/8GB/120GB SSD Negro',       // Name or ID is required.
+                        'id': '89571',
+                        'price': 499,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 10
+                    },
+                                        {
+                        'name': 'PcCom Basic Enterprise Pro i5-6400 / 4GB / 1TB+SSD-120GB / GT 730',       // Name or ID is required.
+                        'id': '117737',
+                        'price': 535,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 11
+                    },
+                                        {
+                        'name': 'PcCom Basic Enterprise Ultra i7-6700 / 8GB / 1 TB / GT 730',       // Name or ID is required.
+                        'id': '109218',
+                        'price': 639,
+                        'brand': 'Varios',
+                        'category': 'Sobremesa',
+                        'list': 'PcCOM Basic',
+                        'position': 12
+                    },
+                                    ]
+            }
+        });
+    </script>
+<script type="text/javascript">
+    var _smid = "xf7kphig7t5r69m7";
+    var _smbanners = true;
+    (function(w, r, a, sm, s ) {
+        w['SalesmanagoObject'] = r;
+        w[r] = w[r] || function () {( w[r].q = w[r].q || [] ).push(arguments)};
+        sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true; sm.src = a;
+        s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sm, s);
+    })(window, 'sm', ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.salesmanago.pl/static/sm.js');
+            sm('webPush', ['42504196-cbf3-4c64-b3ff-09f629387d79', '87600']);
+    </script>
+<script src="https://www.salesmanago.pl/dynamic/xf7kphig7t5r69m7/popups.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7a38cf419a","applicationID":"22130025","transactionName":"bgFTbRcEXhZVUxddCldLcFoRDF8LG2AAVzJcBnNMCwFcAA5zDFkIVgoedAALRV9ZUQpaKFwKRA==","queueTime":0,"applicationTime":173,"atts":"QkZQG18eTRg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
