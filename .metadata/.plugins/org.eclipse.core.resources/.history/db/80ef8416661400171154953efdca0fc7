@@ -6,4 +6,3 @@ Consultas sobre MARCA:
 
 La noticia de la cabecera del periódico: //h3/a[@title="Hazard: acuerdo con el Chelsea para negociar"]
 Todas las noticias de la pág principal: //*[@itemprop="headline"]/a
-Noticias en directo: //*[@class="container-live"]/h2
