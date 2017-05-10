@@ -1,0 +1,32 @@
+<html>
+<body>
+<h2>Mon jardin</h2>
+<p> j'ai perdu ma plume
+				</p>
+<table border="1">
+<tr bgcolor="#9acd32">
+<th>Planta</th><th>Tipo</th>
+</tr>
+<tr>
+<td>Helecho</td><td>Sombra</td>
+</tr>
+<tr>
+<td>Aloe vera</td><td>Sol</td>
+</tr>
+<tr>
+<td>Madreselva</td><td>Mixta</td>
+</tr>
+<tr>
+<td>Laurel</td><td></td>
+</tr>
+<tr>
+<td>Costilla de Ad&aacute;n</td><td>Mixta</td>
+</tr>
+<tr>
+<td>Pac&iacute;fico</td><td></td>
+</tr>
+</table>
+<p>Dedicado a Paco en agradecimiento a su gran colaboracion
+				</p>
+</body>
+</html>

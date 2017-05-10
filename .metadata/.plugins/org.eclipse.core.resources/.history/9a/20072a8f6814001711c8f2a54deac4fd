@@ -1,8 +1,0 @@
-Consultas sobre pcComponentes:
-
-Nombre de todos lo de productos de la portada: //*[@itemprop="name"] ó //h4[@itemprop="name"]
-
-Consultas sobre MARCA:
-
-La noticia de la cabecera del periódico: //h3/a[@title="Hazard: acuerdo con el Chelsea para negociar"]
-Todas las noticias de la pág principal: //*[@itemprop="headline"]/a

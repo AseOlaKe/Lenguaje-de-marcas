@@ -39,9 +39,13 @@
 20. Apellidos de todos los hombres
 /universidad/alumnos/alumno[sexo="Hombre"]/apellido1|/universidad/alumnos/alumno[sexo="Hombre"]/apellido2
 21. Nombre de la carrera que estudia Víctor Manuel
+
 /universidad/carreras/carrera[@id=/universidad/alumnos/alumno[nombre="Víctor Manuel"]/estudios/carrera/@codigo]/nombre
+
 22. Nombre de las asignaturas que estudia Luisa
+
 /universidad/asignaturas/asignatura[@id=/universidad/alumnos/alumno[nombre="Luisa"]/estudios/asignaturas/asignatura/@codigo]/nombre
+
 23. Primer apellido de los alumnos matriculados en Ingeniería del Software
 /universidad/alumnos/alumno/estudios/asignaturas/asignatura[@codigo=/universidad/asignaturas/asignatura[nombre="Ingeniería del Software"]/@id]/../../../apellido1
 24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnología de los Alimentos
