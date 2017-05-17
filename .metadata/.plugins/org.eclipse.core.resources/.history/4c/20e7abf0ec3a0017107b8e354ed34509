@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+		<html>
+			<body>
+				<h1>Encuesta troll</h1>
+				<form action="http://leo.ciclo.iesnervion.es/muestraDatos.php"name="Formulario" method="post">
+					<fieldset>
+						<legend>Vamo a lo que vamo</legend>
+							<br/>Lugar <select name="lugar_autoestima">
+								<option value="Huelva">Huelva</option>
+								<option value="Cadiz">Cádiz</option>
+								<option value="Malaga">Málaga</option>
+								</select> <br>
+							<br/>Fecha de inicio: <input type="date" name="Fecha de nacimiento"><br/>
+							<br/>Responsables: <input type="text" name="Responsables"/>
+							<br/>Código del taller:<input type="text" name="codigo del taller"/>
+							<input type="submit" value="Enviar"/> <input type="reset" value="Restablecer"/>
+					</fieldset>
+				
+				</form>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
