@@ -4,17 +4,12 @@
 		<html>
 			<body>
 				<h1>Encuesta troll</h1>
-				<form action="http://leo.ciclo.iesnervion.es/muestraDatos.php"name="Formulario" method="post">
-					<fieldset>
-						<legend>Vamo a lo que vamo</legend>
 							<xsl:for-each select="encuesta/cuestion">
-								<xsl:value-of select="pregunta"/><br/>
+								<xsl:value-of select="pregunta"/>
 								<xsl:for-each select="encuesta/cuestion">
-								<option><xsl:value-of select="respuesta"/></option>
+								<xsl:value-of select="respuesta"/>
 								</xsl:for-each>
 							</xsl:for-each>
-					</fieldset>
-				</form>
 			</body>
 		</html>
 	</xsl:template>

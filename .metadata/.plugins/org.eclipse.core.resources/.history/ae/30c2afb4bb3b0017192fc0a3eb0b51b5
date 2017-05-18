@@ -8,7 +8,7 @@
 					<fieldset>
 						<legend>Vamo a lo que vamo</legend>
 							<xsl:for-each select="encuesta/cuestion">
-								<xsl:value-of select="pregunta"/><br/>
+								<xsl:value-of select="pregunta"/>
 								<xsl:for-each select="encuesta/cuestion">
 								<option><xsl:value-of select="respuesta"/></option>
 								</xsl:for-each>

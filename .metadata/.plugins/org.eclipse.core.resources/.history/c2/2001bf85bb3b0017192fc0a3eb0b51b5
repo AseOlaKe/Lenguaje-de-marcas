@@ -10,7 +10,7 @@
 							<xsl:for-each select="encuesta/cuestion">
 								<xsl:value-of select="pregunta"/><br/>
 								<xsl:for-each select="encuesta/cuestion">
-								<option><xsl:value-of select="respuesta"/></option>
+								<input type="checkbox" name="respuesta" id="respuesta"><label for="respuesta"><xsl:value-of select="respuesta"/></label></input><br/>
 								</xsl:for-each>
 							</xsl:for-each>
 					</fieldset>
